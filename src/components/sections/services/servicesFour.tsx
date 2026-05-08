@@ -19,7 +19,7 @@ const ServicesFour = () => {
                         serviceOneData.slice(0, 4).map((service) => {
                             return (
                                 <div key={service.id} className="col-xl-3 col-lg-4 col-md-6 wow slideUp" data-delay={service.delay}>
-                                    <ServiceCard service={service} className={`style-3 mt-70 ${service.active ? 'active' : ''}`} />
+                                    {/* <ServiceCard service={service} className={`style-3 mt-70 ${service.active ? 'active' : ''}`} /> */}
                                 </div>
                             )
                         })

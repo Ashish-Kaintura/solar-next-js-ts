@@ -17,7 +17,7 @@ const ServicesTwo = () => {
                             className={`col-xl-3 col-lg-6 col-md-6 wow slideUp`}
                             data-delay={service.delay}
                         >
-                            <ServiceCard service={service} className={`style-2 ${service.active ? 'active' : ''}`} />
+                            {/* <ServiceCard service={service} className={`style-2 ${service.active ? 'active' : ''}`} /> */}
                         </div>
                     ))}
                 </div>
