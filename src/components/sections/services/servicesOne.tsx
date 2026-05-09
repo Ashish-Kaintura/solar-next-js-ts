@@ -17,11 +17,12 @@ const ServicesOne = () => {
         <div className="section-title-area">
           <SectionTitle>
             <SectionTitle.SubTitle>
-              One Stop Solar Solutions
+              End-to-end solar products in Lucknow, Uttar Pradesh
             </SectionTitle.SubTitle>
             <SectionTitle.Title>
-              We provide solar services <br /> across Lucknow and <br />
-              adjoining areas
+              We do provide all types <br /> of solar products in sectors <br />{" "}
+              like housing, commercial, <br />
+              and agriculture.
             </SectionTitle.Title>
           </SectionTitle>
           <div className="array-button">
@@ -73,9 +74,8 @@ const ServicesOne = () => {
           </Swiper>
           <div className="service-text wow slideUp" data-delay=".4">
             <h6>
-              We have in-house teams who handle everything from initial
-              consultation to complete installation and support.{" "}
-              <Link href="/service">View Services </Link>
+              Check out what we have to offer to find the solar product you want
+              <Link href="/service"> View Services </Link>
             </h6>
           </div>
         </div>

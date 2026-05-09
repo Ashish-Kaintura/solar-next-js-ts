@@ -20,8 +20,8 @@ export interface ServiceDataType {
 export const serviceOneData: ServiceDataType[] = [
   {
     id: "1",
-    title: "Solar Panel Installation (Home & Commercial)",
-    description: "Expert solar solutions for residential and commercial properties.",
+    title: "Solar Panel Installation",
+    description: "Safely install rooftop solar systems in your home, office, or commercial building.",
     detailsDescription: "We provide comprehensive solar panel installation services tailored for both homes and large-scale commercial buildings. Our team handles everything from initial structural analysis to final grid synchronization, ensuring a seamless transition to renewable energy.",
     icon: "/img/service/icon/s-icon-1.svg",
     link: "/services/1",
@@ -39,8 +39,8 @@ export const serviceOneData: ServiceDataType[] = [
   },
   {
     id: "2",
-    title: "Solar AMC (Maintenance & Support)",
-    description: "Annual maintenance to keep your system at peak performance.",
+    title: "Residential Solar Solutions",
+    description: "These energy systems at your home are cost-effective and can aid you in lowering your monthly energy expenditures and achieving greater cost savings over the long run.",
     detailsDescription: "Our Solar Annual Maintenance Contract (AMC) is designed to protect your investment. We offer periodic cleaning, inverter health checks, and wiring inspections to prevent power drops and extend equipment life.",
     icon: "/img/service/icon/s-icon-2.svg",
     link: "/services/2",
@@ -57,8 +57,8 @@ export const serviceOneData: ServiceDataType[] = [
   },
   {
     id: "3",
-    title: "Solar Water Pumps for Farming",
-    description: "Reliable irrigation solutions for farmers without grid power.",
+    title: "Commercial Solar Solutions",
+    description: "These systems can provide commercial operations at the school, office, and Shop with energy savings at operational costs.",
     detailsDescription: "Empowering agriculture with solar water pumps. These systems are ideal for remote fields, providing a reliable source of water for irrigation without the need for expensive diesel or unstable grid electricity.",
     icon: "/img/service/icon/s-icon-3.svg",
     link: "/services/3",
@@ -75,8 +75,8 @@ export const serviceOneData: ServiceDataType[] = [
   },
   {
     id: "4",
-    title: "Solar Atta Chakki",
-    description: "Run your flour mill efficiently using solar energy.",
+    title: "Solar AMC (Maintenance)",
+    description: "We provide a long-term service of maintaining your solar system to keep you worry-free by providing quarterly and monthly visits and cleaning.",
     detailsDescription: "Convert your traditional flour mill (Atta Chakki) into a solar-powered business. Our specialized high-torque solar inverters ensure that your heavy-duty motors run smoothly even during fluctuating sunlight.",
     icon: "/img/service/icon/s-icon-4.svg",
     link: "/services/4",
@@ -93,8 +93,8 @@ export const serviceOneData: ServiceDataType[] = [
   },
   {
     id: "5",
-    title: "Solar Street Light Services",
-    description: "Sustainable lighting for streets, parks, and campuses.",
+    title: "Solar Water Pumps",
+    description: "We build solar pumps and solar systems that are based on the agriculture and farming sector to replace diesel and a decreased usage of electricity.",
     detailsDescription: "We install and maintain standalone solar street lights that operate automatically from dusk till dawn. These are perfect for housing societies, industrial parks, and rural roads where cabling is difficult.",
     icon: "/img/service/icon/s-icon-10.svg",
     link: "/services/5",
@@ -111,8 +111,8 @@ export const serviceOneData: ServiceDataType[] = [
   },
   {
     id: "6",
-    title: "Residential Solar Systems",
-    description: "Transform your home into a self-sustaining power plant.",
+    title: "Solar Street Lights",
+    description: "TWe provide solutions for solar lighting that save energy for all outdoor spaces, including streets, societies, and other places.",
     detailsDescription: "Our residential solar systems focus on aesthetics and efficiency. We use high-efficiency mono-perc panels and smart inverters that allow you to monitor your power production from your smartphone.",
     icon: "/img/service/icon/s-icon-11.svg",
     link: "/services/6",
@@ -129,8 +129,8 @@ export const serviceOneData: ServiceDataType[] = [
   },
   {
     id: "7",
-    title: "Commercial Solar Projects",
-    description: "Scaling renewable energy for industrial growth.",
+    title: "Solar Atta Chakki",
+    description: "We offer solar solutions specifically for small businesses and rural areas.",
     detailsDescription: "Helping industries achieve their ESG goals while cutting operational costs. We manage large-scale CAPEX and OPEX solar models for factories, warehouses, and corporate offices.",
     icon: "/img/service/icon/s-icon-1.svg",
     link: "/services/7",

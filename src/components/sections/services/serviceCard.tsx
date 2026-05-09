@@ -18,7 +18,17 @@ const ServiceCard = ({
         <h4>
           <Link href={`/services/${service.id}`}>{service.title}</Link>
         </h4>
-        <p>{service.description}</p>
+        <p
+          style={{
+            // background: "Red",
+            display: "-webkit-box",
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: "vertical",
+            overflow: "hidden",
+          }}
+        >
+          {service.description}
+        </p>
         <Link href={`/service/${service.id}`} className="theme-btn-2 mt-3">
           Read More
           <i className="fa-solid fa-arrow-right-long" />

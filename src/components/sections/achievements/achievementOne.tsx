@@ -7,28 +7,34 @@ import { useInView } from "react-intersection-observer";
 const achievements = [
   {
     count: 6561,
-    description: "Team members",
+    description: "Electricity Savings",
     icon: "/img/achievement-icon/01.svg",
     delay: ".3",
   },
   {
     count: 600,
-    description: "Completed Projects",
+    description: "years of extremely durable lifespan",
     icon: "/img/achievement-icon/02.svg",
     delay: ".5",
   },
   {
     count: 250,
-    description: "Winning award",
+    description: "Accessible Gov. subsidies",
     icon: "/img/achievement-icon/03.svg",
     delay: ".7",
   },
   {
     count: 590,
-    description: "Clients Review",
+    description: "Energy maintenance at a low cost",
     icon: "/img/achievement-icon/04.svg",
     delay: ".9",
   },
+  // {
+  //   count: 590,
+  //   description: "Environmental friendly energy",
+  //   icon: "/img/achievement-icon/04.svg",
+  //   delay: ".10",
+  // },
 ];
 
 const AchievementOne = () => {
@@ -42,21 +48,18 @@ const AchievementOne = () => {
         <div className="achievement-wrapper">
           <SectionTitle className="mb-0">
             <SectionTitle.SubTitle className="text-white">
-              COST & SAVINGS
+              What are the benefits
             </SectionTitle.SubTitle>
             <SectionTitle.Title className="text-white">
-              Solar Services in
+              choosing Solar Energy?
               <br />
               All Budget Ranges
             </SectionTitle.Title>
           </SectionTitle>
           <p className=" text-white mt-md-0 wow slideUp" data-delay=".5">
-            At Vasudhaiv Enterprises, we believe solar starts with installation
-            and continues with trust and savings. We provide complete solar
-            services including design, setup, and maintenance. Whether it is
-            small residential systems or large commercial installations, we
-            provide full support and guidance to execute every project
-            professionally.
+            Among all the options for energy solutions, sun generated energy
+            provides the fastest return on investment in daily savings on energy
+            costs.
           </p>
           <div className="counter-area">
             {achievements.map((achievement, index) => (
