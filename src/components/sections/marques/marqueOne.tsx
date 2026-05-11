@@ -16,22 +16,17 @@ const textSliderData = [
   // "Solar Financing",
   // "Hydro Power",
   // "Solar Energy"
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
-  "Solar Panels",
-  "Vasudevdhaiv Enterqrises",
+  "500+ Solar Installations Completed",
+  "MNRE-Approved Solar Products",
+  "Subsidy Assistance Available",
+  "Experienced Installation Team",
+  "End-to-End Solar Solutions",
+  "500+ Solar Installations Completed",
+  "MNRE-Approved Solar Products",
+  "Subsidy Assistance Available",
+  "Experienced Installation Team",
+  "End-to-End Solar Solutions",
+ 
 ];
 const MarqueOne = () => {
   return (

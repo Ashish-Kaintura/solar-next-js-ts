@@ -6,7 +6,7 @@ const contactInfo = [
     {
         icon: <SuCallMessage />,
         label: "Call Us 7/24",
-        value: "+208-555-0112",
+        value: "+91 8840315311",
         link: "tel:+2085550112",
     },
     {
@@ -18,7 +18,7 @@ const contactInfo = [
     {
         icon: <SuLocation />,
         label: "Location",
-        value: "4517 Washington ave.",
+        value: "615/395 Shri,Sitapur RoadGayatri Nagar, Lucknow",
     },
 ];
 
@@ -64,12 +64,28 @@ const Footer = () => {
                             className="contact-info-items wow slideUp"
                             data-delay={`${0.3 + index * 0.2}`}
                         >
-                            <div className="icon">{info.icon}</div>
+                            <div  className="icon">{info.icon}</div>
                             <div className="content">
-                                <p>{info.label}</p>
+                                <p  >{info.label}</p>
                                 <h3>
-                                    {info.link ? (
-                                        <Link href={info.link}>{info.value}</Link>
+                                    {info.link?.slice(1, 2) ? (
+                                        <Link href={info.link}>
+                                            {info.value.length > 24 ? (
+                                                <>
+                                                    {info.value.slice(0, 24)}
+                                                    <br />
+                                                    {info.value.slice(24)}
+                                                </>
+                                            ) : (
+                                                info.value
+                                            )}
+                                        </Link>
+                                    ) : info.value.length > 24 ? (
+                                        <>
+                                            {info.value.slice(0, 24)}
+                                            <br />
+                                            {info.value.slice(24)}
+                                        </>
                                     ) : (
                                         info.value
                                     )}

@@ -12,7 +12,7 @@ const TopHeaderOne = ({ wrapperClass, className }: { wrapperClass?: string, clas
                         </li>
                         <li>
                             <i className="fa-solid fa-phone-volume" />
-                            <Link href="tel:2086660112">+208-666-0112</Link>
+                            <Link href="tel:2086660112">+91 8840315311</Link>
                         </li>
                     </ul>
                     <div className="top-right">

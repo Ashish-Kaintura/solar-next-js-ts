@@ -55,7 +55,7 @@ const ServiceSidebar = () => {
                     </div>
                     <h4>Need Help? Call Here</h4>
                     <h5>
-                        <Link href="tel:+2085550112">+208-555-0112</Link>
+                        <Link href="tel:+2085550112">+91 8840315311</Link>
                     </h5>
                 </div>
             </div>

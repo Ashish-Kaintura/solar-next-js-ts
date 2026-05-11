@@ -29,7 +29,7 @@ export const faqData = [
   },
   {
     id: 'faq5',
-    question: 'hat solar panel brands do you offer?',
+    question: 'What solar panel brands do you offer?',
     answer: 'We provide installations for accredited brands such as Adani Solar, Tata Power Solar, Waaree, Vikram Solar, and also, Luminous.',
     delay: '.7',
     isOpen: false

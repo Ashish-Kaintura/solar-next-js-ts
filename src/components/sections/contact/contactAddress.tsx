@@ -15,7 +15,7 @@ const ContactAddress = () => {
                     <div className="content">
                         <p>Call Us 7/24</p>
                         <h3>
-                            <Link href="tel:+2085550112">+208-555-0112</Link>
+                            <Link href="tel:+2085550112">+91 8840315311</Link>
                         </h3>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const ContactAddress = () => {
                     <div className="content">
                         <p>Location</p>
                         <h3>
-                            4517 Washington ave.
+                            Find us on Google Maps 615/395 Shri, Sitapur Road Gayatri Nagar, Lucknow
                         </h3>
                     </div>
                 </div>

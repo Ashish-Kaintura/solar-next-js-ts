@@ -17,21 +17,19 @@ const slidesData: SlideType[] = [
   {
     id: 1,
     image: "/img/hero/hero-12.jpg",
-    title: "Vasudhaiv Enterprises Provides Solar Panel Services in Lucknow",
-    heading:
-      "Vasudhaiv Enterprises — Solar Panel Installation Company in Lucknow",
+    title: "TRUSTED SOLAR COMPANY IN LUCKNOW",
+    heading: "Vasudhaiv Enterprises — Solar Company in Lucknow",
     description:
-      "Trusted rooftop solar solutions for homes & businesses in Uttar Pradesh with professional installation, government subsidy support, and long-term savings.",
+      " Trusted rooftop solar solutions for homes & businesses in Uttar Pradesh with professional installation, government subsidy support, and long-term savings.",
     link: "/",
   },
   {
     id: 2,
     image: "/img/hero/hero-7.jpg",
-    title: "WELCOME TO THE SOLAR SOLEN",
-    heading:
-      " Solar Panel Installation Company <br> in Lucknow for Homes & Businesses",
+    title: "Welcome to Vashdhaiv Enterprises",
+    heading: "Solar Panel Installation Company in Lucknow",
     description:
-      "Transmds is the world’s driving worldwide coordinations provider we uphold industry and exchange the worldwide trade of merchandi",
+      "Affordable rooftop solar solutions for homes, businesses, and farms with professional installation and subsidy support.",
     link: "/",
   },
 ];

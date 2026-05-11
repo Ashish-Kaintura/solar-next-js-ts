@@ -49,17 +49,16 @@ const AboutOne = () => {
                 <SectionTitle>
                   <SectionTitle.SubTitle>About Us</SectionTitle.SubTitle>
                   <SectionTitle.Title>
-                    {" "}
-                    The Most Reliable Solar Company in Lucknow, Uttar Pradesh
+                    Most Trusted Solar Provider in Lucknow , Uttar Pradesh
                   </SectionTitle.Title>
                 </SectionTitle>
                 <p className="mt-3 mt-md-0 wow slideUp" data-delay=".5">
-                  At Vasudhaiv Enterprises, we believe solar starts with
-                  installation and continues with trust and savings. We provide
-                  complete solar services including design, setup, and
-                  maintenance. Whether it is small residential systems or large
-                  commercial installations, we provide full support and guidance
-                  to execute every project professionally.
+                  Vasudhaiv Enterprises offers affordable and reliable rooftop
+                  solar designs for homes, businesses, and agricultural land in
+                  the state of Uttar Pradesh. We serve various solar solutions
+                  specializing in money and energy savings for the long term,
+                  from survey and system design, installation, and subsidy
+                  assistance to system maintenance.
                 </p>
                 <div className="about-icon-items">
                   <div className="icon-items wow slideUp" data-delay=".7">
@@ -72,9 +71,13 @@ const AboutOne = () => {
                       />
                     </div>
                     <div className="content">
-                      <h4>Reliability and Performance</h4>
+                      <h4>
+                        Team with Years of Experience in Solar Installation
+                      </h4>
                       <p>
-                        Lorem ipsum dolor sit amet cut co sect. Proin viverra
+                        Rooftop solar installation with commensurate technical
+                        assistance, quality trade skills, and full installation
+                        support.
                       </p>
                     </div>
                   </div>
@@ -88,9 +91,10 @@ const AboutOne = () => {
                       />
                     </div>
                     <div className="content">
-                      <h4>BrightSun Support</h4>
+                      <h4>Making Government Subsidy Easy</h4>
                       <p>
-                        Lorem ipsum dolor sit amet cut co sect. Proin viverra
+                        End-to-end assistance with the PM Surya Ghar Yojana
+                        subsidy and net metering.
                       </p>
                     </div>
                   </div>
@@ -98,7 +102,7 @@ const AboutOne = () => {
                 <div className="about-author">
                   <div className="about-button wow slideUp" data-delay=".5">
                     <Link href="/about" className="theme-btn">
-                      Explore More
+                      Book Free Site Survey
                       <i className="fa-solid fa-arrow-right-long" />
                     </Link>
                   </div>

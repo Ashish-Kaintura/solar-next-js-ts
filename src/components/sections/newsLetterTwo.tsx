@@ -12,7 +12,7 @@ const NewsLetterTwo = () => {
                         <div className="content">
                             <span>Call Us Now</span>
                             <h4>
-                                <Link href="tel:+2085550112">+208-555-0112</Link>
+                                <Link href="tel:+2085550112">+91 8840315311</Link>
                             </h4>
                         </div>
                     </div>

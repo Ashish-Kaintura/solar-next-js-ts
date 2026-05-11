@@ -30,7 +30,7 @@ const Home = () => {
         <MarqueTwo />
       </div>
       <TestimonialOne />
-      <TeamesOne />
+      {/* <TeamesOne /> */}
       <AreaServices />
       {/* <PriceGridOne /> */}
       <FaqHomeOne />

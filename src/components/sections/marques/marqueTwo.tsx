@@ -2,18 +2,14 @@ import Image from 'next/image';
 import { Fragment } from 'react'
 
 const textSliderData = [
-    "Cyber Security",
-    "IT Solution",
-    "Technology",
-    "Data Security",
-    "Cyber Security",
-    "IT Solution",
-    "Technology",
-    "Data Security",
-    "Cyber Security",
-    "IT Solution",
-    "Technology",
-    "Data Security"
+  "solar-panel-installation",
+  "Residential Solar Installation",
+  "Commercial Solar Installation",
+  "SOLAR AMC PAGE",
+  "Solar Water Pump",
+  "Solar Ata Chakki ",
+  "solar street light",
+  "solar installation projects",
 ];
 const MarqueTwo = ({className}:{className?:string}) => {
     return (

@@ -27,4 +27,5 @@ export const partnetsOneData = [
         id: 7,
         img: '/img/brand/12.jpeg'
     },
+  
 ]
