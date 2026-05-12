@@ -7,11 +7,13 @@ import PageTitle from "@/components/sections/pageTitle";
 import TeamesThree from "@/components/sections/teames/teamesThree";
 import WhyChooseUs from "@/components/sections/about/WhyChooseUs";
 import MissionVision from "@/components/sections/about/MissionVision";
+import HeroBanner from "@/components/sections/about/Herobanner";
 
 const About = () => {
   return (
     <>
-      <PageTitle title="About Us" currentPage="About Us" />
+      {/* <PageTitle title="About Us" currentPage="About Us" /> */}
+      <HeroBanner/>
       <AboutTwo />
       <Offer />
       {/* <ProjectsTwo/> */}

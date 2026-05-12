@@ -1,16 +1,17 @@
 import Link from "next/link";
 
 const services = [
-    { name: 'Cleaning Solution', link: '/service-details' },
-    { name: 'Plumbing Solution', link: '/service-details' },
-    { name: 'Air Conditioning', link: '/service-details', active: true },
-    { name: 'Electricity Solution', link: '/service-details' },
-    { name: 'Mechanic Solution', link: '/service-details' },
+    { name: 'Solar Panel Installation', link: '/service-details' },
+    { name: 'Solar AMC', link: '/service-details' },
+    { name: 'Solar Pumps', link: '/service-details', active: true },
+    { name: 'Solar Atta Chakki', link: '/service-details' },
+    { name: 'Solar Street Light', link: '/service-details' },
+    { name: 'Commercial Solar', link: '/service-details' },
 ];
 
 const openingHours = [
-    { day: 'Mon - Sat', time: '10.00 AM - 4.00 PM' },
-    { day: 'Sun', time: '09.00 AM - 4.00 PM' },
+    { day: 'Mon - Sat', time: '10.00 AM - 6.00 PM' },
+    { day: 'Sun', time: '10.00 AM - 12.00 PM' },
     { day: 'Friday', time: 'Closed' },
     { day: 'Emergency', time: '24 hours' },
 ];

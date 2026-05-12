@@ -20,13 +20,13 @@ export const faqData = [
     delay: '.7',
     isOpen: false
   },
-  {
-    id: 'faq4',
-    question: 'Do you offer solar installation out of Lucknow?',
-    answer: 'Of course, we extend our solar services to many cities and districts of Uttar Pradesh.',
-    delay: '.3',
-    isOpen: false
-  },
+  // {
+  //   id: 'faq4',
+  //   question: 'Do you offer solar installation out of Lucknow?',
+  //   answer: 'Of course, we extend our solar services to many cities and districts of Uttar Pradesh.',
+  //   delay: '.3',
+  //   isOpen: false
+  // },
   {
     id: 'faq5',
     question: 'What solar panel brands do you offer?',

@@ -101,7 +101,7 @@ const Card = ({ slide, isActive }: { slide: SlideType; isActive: boolean }) => {
                 {slide.title}
               </motion.h6>
               <motion.h1
-              className="text-lg"
+                className="text-lg"
                 initial={{ x: "100%", opacity: 0 }}
                 animate={{
                   x: isActive ? "0" : "100%",
@@ -143,7 +143,7 @@ const Card = ({ slide, isActive }: { slide: SlideType; isActive: boolean }) => {
               >
                 <Link href={slide.link} className="theme-btn theme-color-2">
                   <span>
-                    Learn More <i className="fas fa-chevron-right" />
+                    Get Free Quote <i className="fas fa-chevron-right" />
                   </span>
                 </Link>
               </motion.div>

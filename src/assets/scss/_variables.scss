@@ -35,3 +35,51 @@ $bg-color-2: var(--bg2);
 $bg-color-3: var(--bg3);
 $shadow: var(--box-shadow);
 $shadow-2: var(--box-shadow-2);
+
+
+/* --- Custom Theme Utilities --- */
+.text-theme { color: $theme-color !important; }
+.text-theme-2 { color: $theme-color-2 !important; }
+.bg-theme { background-color: $theme-color !important; }
+.bg-theme-2 { background-color: $theme-color-2 !important; }
+.border-theme { border-color: $theme-color !important; }
+
+/* Icon Background with slight opacity (using hex code trick or rgba mixin if available, else solid color with light bg) */
+.theme-icon-bg {
+  background-color: #B8622D1A; /* Hex for #B8622D with 10% opacity */
+  color: $theme-color;
+}
+
+.theme-gradient-bg {
+  background: linear-gradient(135deg, $theme-color-2 0%, $theme-color 100%);
+  color: $white;
+}
+
+.btn-white {
+  background-color: $white;
+  color: $theme-color;
+  border: 2px solid $white;
+  &:hover {
+    background-color: transparent;
+    color: $white !important;
+  }
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  color: $white;
+  border: 2px solid $white;
+  &:hover {
+    background-color: $white;
+    color: $theme-color !important;
+  }
+}
+
+.hover-theme-card {
+  transition: all 0.3s ease;
+  &:hover {
+    border-color: $theme-color-2 !important;
+    box-shadow: $shadow-2 !important;
+    transform: translateY(-5px);
+  }
+}

@@ -12,7 +12,7 @@ const contactInfo = [
     {
         icon: <SuEmail />,
         label: "Make a Quote",
-        value: "Solar@gmail.com",
+        value: "vasudhaiv@email.com",
         link: "mailto:infotech@gmail.com",
     },
     {
@@ -26,16 +26,16 @@ const quickLinks = [
     { text: "Solar About", link: "/about" },
     { text: "Our Services", link: "/service" },
     { text: "Our Blogs", link: "/news" },
-    { text: "FAQ’S", link: "/faq" },
+    { text: "Projects", link: "/faq" },
     { text: "Contact Us", link: "/contact" },
 ];
 
 const services = [
-    { text: "Consultancy", link: "/service-details" },
-    { text: "Solar System", link: "/service-details" },
-    { text: "Solar Panel", link: "/service-details" },
-    { text: "Style Guide", link: "/service-details" },
-    { text: "License", link: "/service-details" },
+    { text: "Solar Street Light", link: "/service-details" },
+    { text: "Solar AMC", link: "/service-details" },
+    { text: "Solar Water Pump", link: "/service-details" },
+    { text: "Solar Atta Chakki", link: "/service-details" },
+    { text: "Commercial Solar", link: "/service-details" },
 ];
 
 const recentPosts = [
