@@ -1,0 +1,218 @@
+  {
+    id: "7",
+    title: "Solar Atta Chakki",
+    subtitle: "Solar Street Light Solutions for Lucknow & Uttar Pradesh",
+    bannerImage: "/img/breadcrumb.jpg",
+    bannerTitle: "Solar Street Light Installation in Lucknow & Uttar Pradesh",
+    bannerSubTitle:
+      "Automatic Dusk-to-Dawn Solar LED Lights for Roads, Colonies, Villages & Industrial Areas",
+    bannertagline:
+      "Solar Street Light Installation in Lucknow | Vasudhaiv Enterprises",
+    description:
+      "Solar street lights are an economical and efficient lighting solution for streets, villages, highways, residential colonies, and commercial areas",
+    detailsDescription:
+      "Helping industries achieve their ESG goals while cutting operational costs. We manage large-scale CAPEX and OPEX solar models for factories, warehouses, and corporate offices.",
+    icon: "/img/service/icon/s-icon-1.svg",
+    link: "/services/7",
+    delay: ".7",
+    image: "/img/service/details-7.jpg",
+    serviceTitle: "",
+    servicesubline: "",
+    servicebottomline: "",
+    servicePointer: [
+      "Accelerated depreciation types",
+      "Stable energy costs for 25 years",
+      "Enhanced corporate green image",
+    ],
+    benifitTilte: "",
+    benifitSubTitle: "",
+    benifits: [],
+    faq: [
+      {
+        question: "Do you offer financing?",
+        answer: "Yes, we partner with banks for solar loans.",
+        delay: ".3",
+      },
+    ],
+  },
+   {
+    id: "1",
+    title: "Solar Panel Installation",
+    subtitle: "",
+    description:
+      "Safely install rooftop solar systems in your home, office, or commercial building.",
+    detailsDescription:
+      "We provide comprehensive solar panel installation services tailored for both homes and large-scale commercial buildings. Our team handles everything from initial structural analysis to final grid synchronization, ensuring a seamless transition to renewable energy.",
+    icon: "/img/service/icon/s-icon-1.svg",
+    link: "/services/1",
+    delay: ".3",
+    image: "/img/service/details-1.jpg",
+    serviceTitle: "",
+    servicesubline: "",
+    servicebottomline: "",
+    servicePointer: [
+      "Zero-cost electricity for decades",
+      "Custom design for maximum sunlight absorption",
+      "Professional mounting and safety testing",
+    ],
+    benifitTilte: "",
+    benifitSubTitle: "",
+    benifits: [],
+    faq: [
+      {
+        question: "How much roof space is needed?",
+        answer: "Typically 100 sq. ft. per kilowatt (kW).",
+        delay: ".3",
+      },
+      {
+        question: "Does it work on cloudy days?",
+        answer: "Yes, though output is lower than on sunny days.",
+        delay: ".5",
+      },
+    ],
+  },
+  {
+    id: "2",
+    title: "Residential Solar Solutions",
+    subtitle: "",
+    description:
+      "These energy systems at your home are cost-effective and can aid you in lowering your monthly energy expenditures and achieving greater cost savings over the long run.",
+    detailsDescription:
+      "Our Solar Annual Maintenance Contract (AMC) is designed to protect your investment. We offer periodic cleaning, inverter health checks, and wiring inspections to prevent power drops and extend equipment life.",
+    icon: "/img/service/icon/s-icon-2.svg",
+    link: "/services/2",
+    delay: ".5",
+    image: "/img/service/details-2.jpg",
+    serviceTitle: "",
+    servicesubline: "",
+    servicebottomline: "",
+    servicePointer: [
+      "Scheduled panel cleaning and dusting",
+      "Priority troubleshooting support",
+      "Thermal scanning for hot-spots",
+    ],
+    benifitTilte: "",
+    benifitSubTitle: "",
+    benifits: [],
+    faq: [
+      {
+        question: "What is covered in AMC?",
+        answer: "Cleaning, technical inspection, and minor repairs.",
+        delay: ".3",
+      },
+    ],
+  },
+  {
+    id: "3",
+    title: "Commercial Solar Solutions",
+    subtitle: "",
+    description:
+      "These systems can provide commercial operations at the school, office, and Shop with energy savings at operational costs.",
+    detailsDescription:
+      "Empowering agriculture with solar water pumps. These systems are ideal for remote fields, providing a reliable source of water for irrigation without the need for expensive diesel or unstable grid electricity.",
+    icon: "/img/service/icon/s-icon-3.svg",
+    link: "/services/3",
+    delay: ".7",
+    image: "/img/service/details-3.jpg",
+    serviceTitle: "",
+    servicesubline: "",
+    servicebottomline: "",
+    servicePointer: [
+      "Zero fuel costs for irrigation",
+      "Automatic operation during daylight",
+      "Low maintenance compared to diesel engines",
+    ],
+    benifitTilte: "",
+    benifitSubTitle: "",
+    benifits: [],
+    faq: [
+      {
+        question: "Can it run at night?",
+        answer:
+          "Standard systems run during the day; battery backup is optional.",
+        delay: ".3",
+      },
+    ],
+  },
+  {
+    id: "4",
+    title: "Solar AMC (Maintenance)",
+    subtitle: "",
+    description:
+      "We provide a long-term service of maintaining your solar system to keep you worry-free by providing quarterly and monthly visits and cleaning.",
+    detailsDescription:
+      "Convert your traditional flour mill (Atta Chakki) into a solar-powered business. Our specialized high-torque solar inverters ensure that your heavy-duty motors run smoothly even during fluctuating sunlight.",
+    icon: "/img/service/icon/s-icon-4.svg",
+    link: "/services/4",
+    delay: ".9",
+    image: "/img/service/details-4.jpg",
+    serviceTitle: "",
+    servicesubline: "",
+    servicebottomline: "",
+    servicePointer: [
+      "Massive reduction in monthly power bills",
+      "Higher profit margins for business owners",
+      "Silent and eco-friendly operation",
+    ],
+    benifitTilte: "",
+    benifitSubTitle: "",
+    benifits: [],
+    faq: [
+      {
+        question: "What HP motor can solar handle?",
+        answer: "We support systems from 3HP up to 20HP motors.",
+        delay: ".3",
+      },
+    ],
+  },
+
+
+
+    {
+    id: "6",
+    title: "Solar Street Lights",
+    subtitle: "Solar Street Light Solutions for Lucknow & Uttar Pradesh",
+    bannerImage: "/img/breadcrumb.jpg",
+    bannerTitle: "Solar Street Light Installation in Lucknow & Uttar Pradesh",
+    bannerSubTitle:
+      "Automatic Dusk-to-Dawn Solar LED Lights for Roads, Colonies, Villages & Industrial Areas",
+    bannertagline:
+      "Solar Street Light Installation in Lucknow | Vasudhaiv Enterprises",
+    description:
+      "Solar street lights are an economical and efficient lighting solution for streets, villages, highways, residential colonies, and commercial areas",
+
+    detailsDescription:
+      "At Vasudhaiv Enterprises, we provide solar street light installation services in Lucknow and across Uttar Pradesh — with a focus on high-quality solar LED lights that run at zero electricity cost. Our solutions are ideal for government contracts, residential colonies, industrial areas, and rural development projects.",
+    icon: "/img/service/icon/s-icon-11.svg",
+    link: "/services/6",
+    delay: ".5",
+    image: "/img/service/details-6.jpg",
+    serviceTitle: "Solar Street Light Solutions We Provide",
+    servicesubline: "Our services include:",
+    servicebottomline:
+      "At Vasudhaiv Enterprises, we provide complete installation of solar-powered street lighting systems.",
+    servicePointer: [
+      "Standard roads & colonies — most popular",
+      "Integrated Solar Street Lights (All-in-one panel + battery + light)",
+      "High Mast Solar Lights (Highways, parking lots, large areas)",
+      "Motion Sensor Street Lights (Auto-dim + brighten on movement)",
+      "Smart Solar Lighting Systems (Remote monitoring + IoT-enabled — ideal for smart city & govt. projects)",
+    ],
+    benifitTilte: "Types of Solar Water Pumps",
+    benifitSubTitle:
+      "Based on your water requirements and land type, we install a wide range of solar pumps:",
+    benifits: [
+      "  Surface Solar Pump,For shallow water sources",
+      "Submersible Solar Pump,For deep borewells",
+      "DC Solar Pump,Direct solar energy, no inverter",
+      "AC Solar Pump,Grid-compatible systems",
+      "High-Capacity Agricultural Solar Pumps,Large farms & commercial land",
+    ],
+    faq: [
+      {
+        question: "Can I run my AC on solar?",
+        answer: "Yes, with a correctly sized system.",
+        delay: ".3",
+      },
+    ],
+  },

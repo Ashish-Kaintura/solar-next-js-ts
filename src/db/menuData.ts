@@ -22,11 +22,10 @@ export type MenuItemDataType = {
   submenu?: SubMenuDataType[];
 };
 
-
 export const menuData: MenuItemDataType[] = [
   {
-    title: 'Home',
-    link: '/',
+    title: "Home",
+    link: "/",
     // megamenu: [
     //   {
     //     image: '/img/header/home-1.jpg',
@@ -63,27 +62,28 @@ export const menuData: MenuItemDataType[] = [
     // ],
   },
   {
-    title: 'About',
-    link: '/about',
+    title: "About",
+    link: "/about",
   },
   {
-    title: 'Solar Solutions',
-    link: '/service',
+    title: "Solar Solutions",
+    link: "/service",
     submenu: [
       // { title: 'Services', link: '/service' },
       // { title: 'Service Carousel', link: '/service-carousel' },
       // { title: 'Service Details', link: '/service-details' },
-      { title: 'Solar Panel Installation', link: '/service/1' },
-      { title: 'Solar AMC', link: '/service/2' },
-      { title: 'Solar Pumps', link: '/service/3' },
-      { title: ' Solar Atta Chakki', link: '/service/4' },
-      { title: 'Solar Street Light', link: '/service/5' },
-      { title: 'Commercial Solar Solutions', link: '/service/6' },
+      { title: "Solar Panel Installation", link: "/service/1" },
+      { title: "Residential Solar Solutions", link: "/service/1" },
+      { title: "Commercial Solar Solutions", link: "/service/6" },
+      { title: "Solar AMC", link: "/service/2" },
+      { title: "Solar Pumps", link: "/service/3" },
+      { title: "Solar Street Light", link: "/service/5" },
+      { title: " Solar Atta Chakki", link: "/service/4" },
     ],
   },
   {
-    title: 'Projects',
-    link: '/project',
+    title: "Projects",
+    link: "/project",
     // submenu: [
     //   {
     //     title: 'Projects',
@@ -109,8 +109,8 @@ export const menuData: MenuItemDataType[] = [
     // ],
   },
   {
-    title: 'Blog',
-    link: '/news',
+    title: "Blog",
+    link: "/news",
     // submenu: [
     //   { title: 'Blog Grid', link: '/news' },
     //   { title: 'Blog Standard', link: '/news-standard' },
@@ -118,7 +118,7 @@ export const menuData: MenuItemDataType[] = [
     // ],
   },
   {
-    title: 'Contact',
-    link: '/contact',
+    title: "Contact",
+    link: "/contact",
   },
 ];
