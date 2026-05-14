@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const services = [
+const servicesofside = [
   { name: "Solar Panel Installation", link: "/service-details" },
   { name: "Solar AMC", link: "/service-details" },
   { name: "Solar Pumps", link: "/service-details", active: true },
@@ -25,9 +25,9 @@ const ServiceSidebar = ({ service }: { service?: any }) => {
         </div>
         <div className="widget-categories">
           <ul>
-            {services.map((service, index) => (
-              <li key={index} className={service.active ? "active" : ""}>
-                <Link href={service.link}>{service.name}</Link>
+            {servicesofside.map((servicesofside, index) => (
+              <li key={index} className={servicesofside.active ? "active" : ""}>
+                <Link href={servicesofside.link}>{servicesofside.name}</Link>
                 <i className="fa-solid fa-arrow-right-long" />
               </li>
             ))}
@@ -65,7 +65,8 @@ const ServiceSidebar = ({ service }: { service?: any }) => {
           Why Choose Us?
         </h3>
         <ul className="list-unstyled mb-3 mt-2">
-          {service.whychooseus?.map((type: string, index: number) => (
+          {/* Use optional chaining and a fallback empty array */}
+          {service?.whychooseus?.map((type: string, index: number) => (
             <li
               key={index}
               className="mb-2 d-flex align-items-center"

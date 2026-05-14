@@ -93,7 +93,7 @@ export const serviceOneData: ServiceDataType[] = [
     icon: "/img/service/icon/s-icon-10.svg",
     link: "/services/5",
     delay: ".3",
-    image: "/img/service/details-5.jpg",
+    image: "/img/service/details-1.jpg",
     serviceTitle:
       "We provide customized solar water pump solutions based on your irrigation and agricultural requirements.",
     servicesubline: "Our services include:",

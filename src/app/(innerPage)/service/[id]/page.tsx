@@ -112,7 +112,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                           <Image
                             width={416}
                             height={345}
-                            src="/img/service/details-2.jpg"
+                            src="/img/service/solarpumpimg2.png"
                             alt="img"
                             className="rounded shadow-sm w-100 h-auto"
                           />
@@ -121,7 +121,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                           <Image
                             width={416}
                             height={345}
-                            src="/img/service/details-3.jpg"
+                            src="/img/service/solarpunpimg3.png"
                             alt="img"
                             className="rounded shadow-sm w-100 h-auto"
                           />
