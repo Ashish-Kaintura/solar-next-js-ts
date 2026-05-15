@@ -61,6 +61,10 @@ const ServiceDetails = ({ params }: PageProps) => {
                       {service.subtitle}
                     </h3>
                     <p style={{ color: "var(--text)" }}>
+                      {service.description}
+                    </p>
+                    <br />
+                    <p style={{ color: "var(--text)" }}>
                       {service.detailsDescription}
                     </p>
 
@@ -80,6 +84,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                         <h6 className="mt-3 text-theme">
                           {service.servicesubline}
                         </h6>
+                        <h6 className="mt-3">Our offerings include:</h6>
                         <ul className="list-unstyled mb-3 mt-2">
                           {service.servicePointer?.map(
                             (type: string, index: number) => (
@@ -173,6 +178,17 @@ const ServiceDetails = ({ params }: PageProps) => {
                         </div>
                       ),
                     )}
+                  </div>
+                  <div>
+                    <p
+                      className="mb-0 fst-italic border-top pt-3"
+                      style={{
+                        color: "var(--text)",
+                        borderColor: "var(--border)",
+                      }}
+                    >
+                      {service.typeSubTitlebootom}
+                    </p>
                   </div>
                 </div>
               )}

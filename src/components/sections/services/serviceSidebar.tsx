@@ -3,7 +3,7 @@ import Link from "next/link";
 const servicesofside = [
   { name: "Solar Panel Installation", link: "/service-details" },
   { name: "Solar AMC", link: "/service-details" },
-  { name: "Solar Pumps", link: "/service-details", active: true },
+  { name: "Solar Pumps", link: "/service-details",},
   { name: "Solar Atta Chakki", link: "/service-details" },
   { name: "Solar Street Light", link: "/service-details" },
   { name: "Commercial Solar", link: "/service-details" },
@@ -26,7 +26,7 @@ const ServiceSidebar = ({ service }: { service?: any }) => {
         <div className="widget-categories">
           <ul>
             {servicesofside.map((servicesofside, index) => (
-              <li key={index} className={servicesofside.active ? "active" : ""}>
+              <li key={index} >
                 <Link href={servicesofside.link}>{servicesofside.name}</Link>
                 <i className="fa-solid fa-arrow-right-long" />
               </li>
