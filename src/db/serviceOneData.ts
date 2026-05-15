@@ -83,6 +83,179 @@ export interface ServiceDataType {
 
 export const serviceOneData: ServiceDataType[] = [
   {
+    id: "commercial-solar-installation-lucknow",
+    slug: "commercial-solar-installation-lucknow",
+    metatitle: "Commercial Solar Solutions",
+    metadesc:
+      "Commercial solar installation for industries, offices & factories in Lucknow & UP. On-grid systems, net metering & full project support. Call now",
+    title: "Commercial Solar Solutions",
+    subtitle: "Commercial Solar Solutions for Businesses",
+    bannerImage: "/img/breadcrumb.jpg",
+    mainimg: "",
+    img2: "/img/service/solarpumpimg2.png",
+    img3: "/img/service/solarpunpimg3.png",
+    bannerTitle: "Commercial Solar Installation in Lucknow & Uttar Pradesh",
+    bannerSubTitle:
+      "Solar Power Plants for Industries, Offices, Factories & Institutions",
+    bannertagline:
+      "Commercial Solar Installation in Lucknow | Vasudhaiv Enterprises",
+    description:
+      "These systems can provide commercial operations at the school, office, and Shop with energy savings at operational costs.",
+    detailsDescription:
+      "Solar energy has become essential for companies dealing with high electricity costs while maintaining profitability. Vasudhaiv Enterprises is the preferred partner for commercial solar installation across industries, offices, factories, institutions, and large commercial buildings in Lucknow and Uttar Pradesh With our services, businesses can reduce energy costs and switch to a more sustainable and reliable energy source",
+    icon: "/img/service/icon/s-icon-3.svg",
+    link: "/services/5",
+    delay: ".3",
+    image: "/img/service/details-1.jpg",
+    serviceTitle:
+      "We develop and implement personalized solar systems to meet your business energy needs.",
+    servicesubline: "Commercial solar services we provide:",
+    servicebottomline:
+      "Our goal is to maximize energy generation and long-term savings for your business",
+    servicePointer: [
+      "Solar power plants for industries",
+      "Rooftop solar panels for commercial offices",
+      "Solar systems for commercial enterprises",
+      "On-grid systems with net metering",
+      "Custom solar design and engineering",
+    ],
+    typeTilte: "Large Projects and Industrial Solar Installations",
+    typeSubTitle: "We specialize in large-scale solar system installations for",
+    servicetype: [
+      "Manufacturing Units Factories & production plants",
+      "Warehouses Large roof area — high ROI",
+      "Educational Institutions Schools, colleges, universities",
+      "Healthcare Hospitals & clinics",
+      "Commercial Real Estate Offices, malls, complexes",
+      "All Commercial Operations Any business with high power need",
+    ],
+    typeSubTitlebootom:
+      "We handle everything from planning and design to execution — ensuring zero disruption to your business operations",
+    benifitTilte: "Benefits of Going Commercial Solar",
+    benifitSubTitle:
+      "Going solar provides measurable and long-term advantages for your business:",
+    benifits: [
+      "Lower Energy Costs",
+      "Higher Profit Margin",
+      "Low Maintenance",
+      "Renewable Energy",
+      "Green Brand Image",
+      "Grid Independence",
+    ],
+    installationProcess: {
+      title: "How We Install Commercial Solar Systems",
+      subtitle:
+        "We follow a structured and professional process to ensure your project is completed with minimal disruption to your business:",
+      steps: [
+        {
+          id: "1",
+          title: "Site inspection and energy audit",
+          description: "Building load analysis, roof assessment, shadow study",
+        },
+        {
+          id: "2",
+          title: "Custom system design to project specifications",
+          description: "Electrical layout, panel placement, inverter sizing",
+        },
+        {
+          id: "3",
+          title: "Transparent cost estimation & project budget",
+          description: "Detailed quote with no hidden charges",
+        },
+        {
+          id: "4",
+          title: "Installation by certified and trained engineers",
+          description: "Zero-disruption installation schedule",
+        },
+        {
+          id: "5",
+          title: "System commissioning, net metering setup & handover",
+          description: "Full testing, DISCOM coordination, documentation",
+        },
+      ],
+    },
+    pricingSection: {
+      title: "",
+      subtitle: "",
+      plans: [],
+    },
+
+    farmerSupport: {
+      title: "",
+      items: [],
+    },
+    serviceCoverage: {
+      title: " Commercial Solar Installation Across Lucknow & Uttar Pradesh",
+      subtitle:
+        "We install commercial solar systems across all major cities in UP — for industries of all sizes:",
+      locations: [
+        "Lucknow",
+        "Kanpur",
+        "Ayodhya",
+        "Barabanki",
+        "Sitapur",
+        "Sultanpur",
+        "Nearby rural areas across UP",
+      ],
+      bottomText: "",
+    },
+    ctaSection: {
+      title: "Are Energy Bills Draining Your Business Profits?",
+      subtitle:
+        "Vasudhaiv Enterprises provides expert commercial solar installation across Lucknow and Uttar Pradesh. Contact our team to book your free consultation and energy audit — and find out exactly how much your business can save.",
+      buttons: [
+        {
+          label: "Book Free Site Visit",
+          link: "/contact",
+          primary: true,
+        },
+        {
+          label: "WhatsApp Enquiry",
+          link: "https://wa.me/918840315311",
+          primary: false,
+        },
+        {
+          label: "Get Quote for Subsidy",
+          link: "/contact",
+          primary: false,
+        },
+      ],
+      bottomText: "“Free Site Visit” is the best-performing ",
+    },
+    whychooseus: [
+      "100+ commercial installations in UP",
+      "Certified in-house engineers",
+      "On-grid & net metering expertise",
+      "End-to-end project management",
+      "Post-installation AMC support",
+    ],
+    faq: [
+      {
+        question: "What system size does my business need?",
+        answer:
+          "Based on your monthly units consumed — we do a free energy audit.",
+        delay: ".3",
+      },
+      {
+        question: "Is net metering available in UP?",
+        answer:
+          "Yes — we handle the full DISCOM net metering application process.",
+        delay: ".5",
+      },
+      {
+        question: "What is the ROI timeline?",
+        answer: "Typically 3–5 years with 25+ years of savings after payback.",
+        delay: ".7",
+      },
+      {
+        question: "Do you provide AMC after installation?",
+        answer:
+          "Yes — we offer annual maintenance contracts for all our commercial installations.",
+        delay: ".9",
+      },
+    ],
+  },
+  {
     id: "solar-amc-lucknow",
     slug: "solar-amc-lucknow",
     metatitle: "Solar AMC Services In Lucknow And Uttar Pradesh",
@@ -233,8 +406,7 @@ export const serviceOneData: ServiceDataType[] = [
           primary: false,
         },
       ],
-      bottomText:
-        "“Free Site Visit” is the best-performing CTA for farmers and agricultural customers.",
+      bottomText: "“Free Site Visit” is the best-performing ",
     },
     whychooseus: [
       "Experienced Team for Solar Maintenance",
@@ -437,8 +609,7 @@ export const serviceOneData: ServiceDataType[] = [
           primary: false,
         },
       ],
-      bottomText:
-        "“Free Site Visit” is the best-performing CTA for farmers and agricultural customers.",
+      bottomText: "“Free Site Visit” is the best-performing ",
     },
     whychooseus: [
       "Years of solar irrigation experience",
@@ -644,8 +815,7 @@ export const serviceOneData: ServiceDataType[] = [
           primary: false,
         },
       ],
-      bottomText:
-        "“Free Site Visit” is the best-performing CTA for farmers and agricultural customers.",
+      bottomText: "“Free Site Visit” is the best-performing ",
     },
     whychooseus: [
       "Certified solar lighting experts",

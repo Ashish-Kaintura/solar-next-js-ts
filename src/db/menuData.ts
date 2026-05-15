@@ -69,12 +69,15 @@ export const menuData: MenuItemDataType[] = [
     title: "Solar Solutions",
     link: "/service",
     submenu: [
-      { title: "Solar Panel Installation", link: "/service/1" },
-      { title: "Residential Solar Installation", link: "/service/1" },
-      { title: "Commercial Solar Installation", link: "/service/6" },
-      { title: "Solar AMC Services", link: "/service/2" },
+      { title: "Solar Panel Installation", link: "/service/" },
+      { title: "Residential Solar Installation", link: "/service/" },
+      {
+        title: "Commercial Solar Installation",
+        link: "/service/commercial-solar-installation-lucknow",
+      },
+      { title: "Solar AMC Services", link: "/service/solar-amc-lucknow" },
       { title: "Solar Water Pump", link: "/service/solar-water-pumps-lucknow" },
-      { title: "Solar Atta Chakki", link: "/service/4" },
+      { title: "Solar Atta Chakki", link: "/service/" },
       {
         title: "Solar Street Light",
         link: "/service/solar-street-light-lucknow",
