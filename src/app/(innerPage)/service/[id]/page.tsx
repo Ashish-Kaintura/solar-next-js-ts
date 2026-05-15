@@ -51,7 +51,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                       width={856}
                       height={529}
                       sizes="100vw"
-                      src={service.image || "/img/service/details-1.jpg"}
+                      src={service.mainimg || "/img/service/details-1.jpg"}
                       alt={service.subtitle}
                       className="rounded shadow-sm w-100 h-auto"
                     />
@@ -84,7 +84,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                         <h6 className="mt-3 text-theme">
                           {service.servicesubline}
                         </h6>
-                        <h6 className="mt-3">Our offerings include:</h6>
+                        {/* <h6 className="mt-3">Our offerings include:</h6> */}
                         <ul className="list-unstyled mb-3 mt-2">
                           {service.servicePointer?.map(
                             (type: string, index: number) => (
@@ -345,85 +345,104 @@ const ServiceDetails = ({ params }: PageProps) => {
               )}
 
               {/* Farmer Support & Coverage (2 Columns) */}
-              <div className="row mt-4 g-4">
-                {service.farmerSupport && (
-                  <div className="col-md-6">
-                    <div
-                      className="p-4 rounded h-100 border"
-                      style={{
-                        backgroundColor: "#B8622D0D",
-                        borderColor: "#B8622D33",
-                      }}
-                    >
-                      {" "}
-                      {/* 5% and 20% opacity of theme */}
-                      <h4 className="mb-3" style={{ color: "var(--header)" }}>
-                        {service.farmerSupport.title}
-                      </h4>
-                      <ul className="list-unstyled mb-0">
-                        {service.farmerSupport.items.map(
-                          (item: string, idx: number) => (
-                            <li
-                              key={idx}
-                              className="mb-2"
-                              style={{ color: "var(--text)" }}
-                            >
-                              <i className="fa-solid fa-handshake text-theme me-2"></i>{" "}
-                              {item}
-                            </li>
-                          ),
-                        )}
-                      </ul>
-                    </div>
-                  </div>
-                )}
-
-                {service.serviceCoverage && (
-                  <div className="col-md-6">
-                    <div
-                      className="p-4 rounded h-100 border"
-                      style={{
-                        backgroundColor: "var(--bg)",
-                        borderColor: "var(--border)",
-                      }}
-                    >
-                      <h4 className="mb-2" style={{ color: "var(--header)" }}>
-                        {service.serviceCoverage.title}
-                      </h4>
-                      <p
-                        className="small mb-3"
-                        style={{ color: "var(--text)" }}
+              {/* Farmer Support & Coverage (2 Columns) */}
+              {(service.farmerSupport || service.serviceCoverage) && (
+                <div className="row mt-4 g-4">
+                  {service.farmerSupport &&
+                    service.farmerSupport.items?.length > 0 && (
+                      <div
+                        className={
+                          service.serviceCoverage ? "col-md-6" : "col-md-12"
+                        }
                       >
-                        {service.serviceCoverage.subtitle}
-                      </p>
+                        <div
+                          className="p-4 rounded h-100 border"
+                          style={{
+                            backgroundColor: "#B8622D0D",
+                            borderColor: "#B8622D33",
+                          }}
+                        >
+                          <h4
+                            className="mb-3"
+                            style={{ color: "var(--header)" }}
+                          >
+                            {service.farmerSupport.title}
+                          </h4>
 
-                      <div className="d-flex flex-wrap gap-2 mb-3">
-                        {service.serviceCoverage.locations.map(
-                          (loc: string, idx: number) => (
-                            <span
-                              key={idx}
-                              className="badge bg-white text-dark border shadow-sm px-3 py-2"
-                            >
-                              <i className="fa-solid fa-location-dot text-theme-2 me-1"></i>{" "}
-                              {loc}
-                            </span>
-                          ),
-                        )}
+                          <ul className="list-unstyled mb-0">
+                            {service.farmerSupport.items.map(
+                              (item: string, idx: number) => (
+                                <li
+                                  key={idx}
+                                  className="mb-2"
+                                  style={{ color: "var(--text)" }}
+                                >
+                                  <i className="fa-solid fa-handshake text-theme me-2"></i>
+                                  {item}
+                                </li>
+                              ),
+                            )}
+                          </ul>
+                        </div>
                       </div>
+                    )}
 
-                      <p
-                        className="small mb-0 fst-italic border-top pt-2"
-                        style={{
-                          color: "var(--text)",
-                          borderColor: "var(--border)",
-                        }}
+                  {service.serviceCoverage &&
+                    service.serviceCoverage.locations?.length > 0 && (
+                      <div
+                        className={
+                          service.farmerSupport ? "col-md-6" : "col-md-12"
+                        }
                       >
-                        {service.serviceCoverage.bottomText}
-                      </p>
-                    </div>
-                  </div>
-                )}
-              </div>
+                        <div
+                          className="p-4 rounded h-100 border"
+                          style={{
+                            backgroundColor: "var(--bg)",
+                            borderColor: "var(--border)",
+                          }}
+                        >
+                          <h4
+                            className="mb-2"
+                            style={{ color: "var(--header)" }}
+                          >
+                            {service.serviceCoverage.title}
+                          </h4>
+
+                          <p
+                            className="small mb-3"
+                            style={{ color: "var(--text)" }}
+                          >
+                            {service.serviceCoverage.subtitle}
+                          </p>
+
+                          <div className="d-flex flex-wrap gap-2 mb-3">
+                            {service.serviceCoverage.locations.map(
+                              (loc: string, idx: number) => (
+                                <span
+                                  key={idx}
+                                  className="badge bg-white text-dark border shadow-sm px-3 py-2"
+                                >
+                                  <i className="fa-solid fa-location-dot text-theme-2 me-1"></i>
+                                  {loc}
+                                </span>
+                              ),
+                            )}
+                          </div>
+
+                          <p
+                            className="small mb-0 fst-italic border-top pt-2"
+                            style={{
+                              color: "var(--text)",
+                              borderColor: "var(--border)",
+                            }}
+                          >
+                            {service.serviceCoverage.bottomText}
+                          </p>
+                        </div>
+                      </div>
+                    )}
+                </div>
+              )}
 
               {/* Call to Action Banner */}
               {service.ctaSection && (

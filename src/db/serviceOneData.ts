@@ -83,6 +83,190 @@ export interface ServiceDataType {
 
 export const serviceOneData: ServiceDataType[] = [
   {
+    id: "solar-amc-lucknow",
+    slug: "solar-amc-lucknow",
+    metatitle: "Solar AMC Services In Lucknow And Uttar Pradesh",
+    metadesc: "Professional Solar Annual Maintenance & Repair Services",
+    title: "Solar AMC (Maintenance)",
+    subtitle: " Solar Panel Maintenance Services",
+    bannerImage: "/img/service/waterpunpbanner.png",
+    mainimg: "",
+    img2: "/img/service/solarpumpimg2.png",
+    img3: "/img/service/solarpunpimg3.png",
+    bannerTitle: "Solar AMC Services In Lucknow And Uttar Pradesh",
+    bannerSubTitle: "Professional Solar Annual Maintenance & Repair Service",
+    bannertagline: "Solar AMC Services in Lucknow | Vasudhaiv Enterprises",
+    description:
+      "We provide a long-term service of maintaining your solar system to keep you worry-free by providing quarterly and monthly visits and cleaning.",
+    detailsDescription:
+      "Solar panels require regular cleaning and inspection for maximum efficiency. Cleaning dust and obstructions from solar panels helps maximize energy generation.",
+    icon: "/img/service/icon/s-icon-4.svg",
+    link: "/services/5",
+    delay: ".3",
+    image: "/img/service/details-1.jpg",
+    serviceTitle: "Some of our offered services are",
+    servicesubline: "",
+    servicebottomline:
+      "We ensure your solar system performs efficiently and delivers maximum output",
+    servicePointer: [
+      "Solar panel cleaning",
+      "Solar panel inspection and performance testing",
+      "Inspection of wiring, connections, and electrical components",
+      "Inverter inspection and servicing",
+      "System troubleshooting and repair services",
+    ],
+    typeTilte: "",
+    typeSubTitle: "",
+    servicetype: [],
+    benifitTilte: "Benefits of Solar AMC Services",
+    benifitSubTitle:
+      "Regular maintenance improves system efficiency and increases long-term savings.",
+    benifits: [
+      "Maximum solar energy generation",
+      "Improved system efficiency",
+      "Increased system lifespan",
+      "Early detection — prevent major failures",
+      "Preventive maintenance — reduces repair costs",
+    ],
+
+    installationProcess: {
+      title: "Solar Repair And Inspection Services",
+      subtitle:
+        "If your solar system underperforms, our team provides reliable repair and inspection services.",
+      steps: [
+        {
+          id: "1",
+          title: "System Troubleshooting",
+          description: "",
+        },
+        {
+          id: "2",
+          title: "Inverter faults and failures",
+          description: "",
+        },
+        {
+          id: "3",
+          title: "Solar panel performance issues",
+          description: "",
+        },
+        {
+          id: "4",
+          title: "Electrical faults and wiring issues",
+          description: "",
+        },
+        {
+          id: "5",
+          title: "Complete solar system inspection",
+          description: "",
+        },
+      ],
+    },
+    pricingSection: {
+      title: "AMC Plans & Pricing",
+      subtitle:
+        "Flexible AMC Plans for All Solar Systems — residential solar PV to large commercial power plants.",
+      plans: [
+        {
+          id: "1",
+          title: "Basic Plan",
+          subtitle: "Residential",
+          price: "₹X,XXX/yr",
+          note: "Standard",
+          featured: false,
+        },
+        {
+          id: "2",
+          title: "Most Popular",
+          subtitle: "Commercial",
+          price: "₹X,XXX/yr",
+          note: "Comprehensive AMC support",
+          featured: true,
+          badge: "Most Popular",
+        },
+        {
+          id: "3",
+          title: "Industrial",
+          subtitle: "Large solar power plants",
+          price: "Custom",
+          note: "Custom maintenance packages",
+          featured: false,
+        },
+      ],
+    },
+    farmerSupport: {
+      title: "",
+      items: [],
+    },
+    serviceCoverage: {
+      title: "Solar AMC Services In Lucknow And Uttar Pradesh",
+      subtitle: "We provide Solar AMC services across:",
+      locations: [
+        "Lucknow",
+        "Kanpur",
+        "Ayodhya",
+        "Barabanki",
+        "Sitapur",
+        "Sultanpur",
+        "Nearby rural areas across UP",
+      ],
+      bottomText:
+        "Our team provides fast on-site inspection and maintenance support",
+    },
+    ctaSection: {
+      title: " Keep Your Solar System Performing at Its Best",
+      subtitle:
+        "Keep your solar system running efficiently with professional AMC and maintenance support. Vasudhaiv Enterprises provides trusted Solar AMC services across Lucknow, Uttar Pradesh.",
+      buttons: [
+        {
+          label: "Book Free Site Visit",
+          link: "/contact",
+          primary: true,
+        },
+        {
+          label: "WhatsApp Enquiry",
+          link: "https://wa.me/918840315311",
+          primary: false,
+        },
+        {
+          label: "Get Quote for Subsidy",
+          link: "/contact",
+          primary: false,
+        },
+      ],
+      bottomText:
+        "“Free Site Visit” is the best-performing CTA for farmers and agricultural customers.",
+    },
+    whychooseus: [
+      "Experienced Team for Solar Maintenance",
+      "On-Site Service with Rapid Turnaround",
+      "Competitive AMC Pricing",
+      "System Inspection & All Services",
+      "Trusted across Uttar Pradesh",
+    ],
+    faq: [
+      {
+        question: "What is covered in AMC?",
+        answer: "Cleaning, technical inspection, and minor repairs.",
+        delay: ".3",
+      },
+      {
+        question: "How often should panels be cleaned?",
+        answer: "Every 3 months for best efficiency.",
+        delay: ".5",
+      },
+      {
+        question: "Do you serve Kanpur / Ayodhya?",
+        answer: "Yes, we cover all major UP cities.",
+        delay: ".7",
+      },
+      {
+        question: "What is your response time?",
+        answer: "24-48 hours on-site support.",
+        delay: ".9",
+      },
+    ],
+  },
+  {
     id: "solar-water-pumps-lucknow",
     slug: "solar-water-pumps",
     metatitle:
@@ -92,7 +276,7 @@ export const serviceOneData: ServiceDataType[] = [
     title: "Solar Water Pumps",
     subtitle: "Solar Water Pumps for Agriculture",
     bannerImage: "/img/service/waterpunpbanner.png",
-    mainimg: "",
+    mainimg: "/img/service/mainsolarpum.png",
     img2: "/img/service/solarpumpimg2.png",
     img3: "/img/service/solarpunpimg3.png",
     bannerTitle: "Solar Water Pump Installation in Lucknow, Uttar Pradesh",
@@ -107,7 +291,7 @@ export const serviceOneData: ServiceDataType[] = [
     link: "/services/5",
     delay: ".3",
     image: "/img/service/details-1.jpg",
-    serviceTitle: " Solar Water Pump Solutions We Provide",
+    serviceTitle: "Solar Water Pump Solutions We Provide",
     servicesubline:
       "We provide customized solar water pump solutions based on your irrigation and agricultural requirements.",
     servicebottomline:
