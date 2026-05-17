@@ -1,12 +1,22 @@
 import Link from "next/link";
 
 const servicesofside = [
-  { name: "Solar Panel Installation", link: "/service-details" },
-  { name: "Solar AMC", link: "/service-details" },
-  { name: "Solar Pumps", link: "/service-details",},
-  { name: "Solar Atta Chakki", link: "/service-details" },
-  { name: "Solar Street Light", link: "/service-details" },
-  { name: "Commercial Solar", link: "/service-details" },
+  {
+    name: "Solar Panel Installation",
+    link: "/service/solar-panel-installation-in-lucknow/",
+  },
+  {
+    name: "Residential Solar. ",
+    link: "/service/residential-solar-installation-lucknow",
+  },
+  {
+    name: "Commercial Solar",
+    link: "/service/commercial-solar-installation-lucknow",
+  },
+  { name: "Solar AMC", link: "/service/solar-amc-lucknow/" },
+  { name: "Solar Pumps", link: "/service/solar-water-pump-lucknow" },
+  { name: "Solar Atta Chakki", link: "/service/solar-atta-chakki-lucknow" },
+  { name: "Solar Street Light", link: "/service/solar-street-light-lucknow" },
 ];
 
 const openingHours = [

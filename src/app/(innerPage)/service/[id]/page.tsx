@@ -53,9 +53,10 @@ const ServiceDetails = ({ params }: PageProps) => {
                       sizes="100vw"
                       src={service.mainimg || "/img/service/details-1.jpg"}
                       alt={service.subtitle}
-                      className="rounded shadow-sm w-100 h-auto"
+                      className="rounded shadow-sm w-100 h-50"
                     />
                   </div>
+                  
                   <div className="details-content">
                     <h3 className="mb-3" style={{ color: "var(--header)" }}>
                       {service.subtitle}
