@@ -85,159 +85,127 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "solar-panel-installation-luckknow",
     slug: "solar-panel-installation-luckknow",
-    metatitle:
-      "Solar Water Pump Installation in Lucknow | Vasudhaiv Enterprises",
+    metatitle: "Solar Panel Installation in Lucknow | Vasudhaiv Enterprises",
     metadesc:
-      "Solar street light installation in Lucknow & UP. LED solar lights for roads, colonies, villages & govt. projects. Affordable pricing. Call now.",
+      "Expert solar panel installation in Lucknow. PM Surya Ghar subsidy ₹78,000. On-grid, off-grid & hybrid. Call Vasudhaiv Enterprises.",
     title: "Solar Panel Installation",
-    subtitle: "Solar Panel for Your Home in Lucknow",
+    subtitle: "Solar Panel Installation in Lucknow for Homes & Businesses",
     bannerImage: "/img/breadcrumb.jpg",
     mainimg: "",
     img2: "/img/service/solarpumpimg2.png",
     img3: "/img/service/solarpunpimg3.png",
-    bannerTitle: "Solar Panel for Your Home in Lucknow  ",
+    bannerTitle: "Solar Panel Installation in Lucknow",
     bannerSubTitle:
       "Solar Panel for Home in Lucknow — Save Up to 90% on Electricity Bills",
-    bannertagline: "",
+    bannertagline:
+      "Solar Panel Installation in Lucknow | Vasudhaiv Enterprises",
     description:
-      "Safely install rooftop solar systems in your home, office, or commercial building.",
+      "Installing a solar system is now simple and hassle-free with Vasudhaiv Enterprises. Our experienced team manages the complete process — from site inspection to final net metering connection.",
     detailsDescription:
-      "Vasudhaiv Enterprises helps Lucknow homeowners switch to clean and affordable solar energy. Whether you live in a 1BHK apartment or a large bungalow, we design the perfect solar system for your home — with complete subsidy support and expert installation. ",
+      "We ensure safe installation, proper system design, and long-term performance for homes, offices, factories, and commercial buildings across Lucknow and Uttar Pradesh.",
     icon: "/img/service/icon/s-icon-1.svg",
     link: "/services/5",
     delay: ".3",
     image: "/img/service/details-1.jpg",
-    serviceTitle: "Solar Panel for Your Home in Lucknow",
-    servicesubline:
-      "At Vasudhaiv Enterprises, we provide complete installation of solar-powered street lighting systems",
-    servicebottomline:
-      "Our promise: fully efficient, reliable, and low-maintenance solar lighting for every project",
-    servicePointer: [
-      "Solar LED street light installation",
-      "Automatic dusk-to-dawn lighting systems",
-      "High-mast solar lights for highways & large areas",
-      "Outdoor boundary and perimeter lighting",
-      "Complete installation and post-installation maintenance",
-    ],
-    typeTilte: "Types of Solar Street Lights We Install",
-    typeSubTitle:
-      "We help you select and install the best solar lighting type based on your project",
-    servicetype: [
-      "LED Solar Street Lights Standard roads & colonies — most popular",
-      "Integrated Solar Street Lights All-in-one panel + battery + light",
-      "High Mast Solar Lights Highways, parking lots, large areas",
-      "Motion Sensor Street Lights Auto-dim + brighten on movement",
-      "Smart Solar Lighting Systems Remote monitoring + IoT-enabled — ideal for smart city & govt. projects",
-    ],
-    typeSubTitlebootom:
-      "We first assess your requirements and help you choose the most suitable system",
-    benifitTilte: "Why Solar Street Lights Are the Better Choice",
-    benifitSubTitle:
-      "Here are the key benefits of choosing solar-powered street lighting",
+    serviceTitle: "",
+    servicesubline: "",
+    servicebottomline: "",
+    servicePointer: [],
+    typeTilte: "",
+    typeSubTitle: "",
+    servicetype: [],
+    typeSubTitlebootom: "",
+    benifitTilte: "Benefits With Our Service",
+    benifitSubTitle: "",
     benifits: [
-      "Zero Electricity Cost 100% solar powered",
-      "Automatic On/Off Dusk-to-dawn sensor",
-      "Minimal Maintenance Low upkeep cost",
-      "Long Battery Backup 12+ hours full brightness",
-      "Eco-Friendly Zero carbon emissions",
-      "No Wiring Needed Rural areas mein bhi easy install",
+      "Save up to 90% on electricity bills every month",
+      "Government subsidy up to ₹78,000 under PM Surya Ghar Yojana",
+      "Complete net metering & UPPCL documentation support",
+      "25-year panel performance warranty from top brands",
     ],
     installationProcess: {
-      title: "Ideal Applications for Solar Street Lights  ",
-      subtitle: "Our solar street lighting solutions are suitable for:",
+      title: "How We Install Your Solar System — Step by Step",
+      subtitle: "",
       steps: [
         {
           id: "1",
-          title: "Roads & Highways",
+          title: "Free Site Survey & Roof Check",
           description: "",
         },
         {
           id: "2",
-          title: "Residential Colonies",
+          title: "System Design & Brand Selection",
           description: "",
         },
         {
           id: "3",
-          title: "Villages & Gram Panchayat",
+          title: "Rooftop Mounting & Wiring",
           description: "",
         },
         {
           id: "4",
-          title: "Industrial Parks",
-          description: "",
-        },
-        {
-          id: "5",
-          title: "Govt. & Nagar Nigam Projects",
-          description: "",
-        },
-        {
-          id: "6",
-          title: "Parking Lots & Campuses",
+          title: "Net Metering Connection & Handover",
           description: "",
         },
       ],
     },
     pricingSection: {
-      title: "Solar Street Light Cost & Pricing",
+      title: "Solar Panel Installation Cost in Uttar Pradesh",
       subtitle:
-        "Solar street light pricing depends on wattage, battery type, pole height, and installation location.",
+        "Cost depends on: system size, solar panel brand, roof type, inverter selection, battery requirement, and installation location.",
       plans: [
         {
           id: "1",
-          title: "12W–30W",
-          subtitle: "Small roads / lanes",
-          price: "₹X,XXX",
-          note: "per unit installed",
+          title: "1 kW",
+          subtitle: "Small Homes (1–2 BHK)",
+          price: "₹65,000 – ₹75,000",
+          note: "4–5 units",
           featured: false,
         },
         {
           id: "2",
-          title: "40W–60W",
-          subtitle: "Colonies & village roads",
-          price: "₹X,XXX",
-          note: "per unit installed",
+          title: "2 kW",
+          subtitle: "Medium Homes (2–3 BHK)",
+          price: "₹1,10,000 – ₹1,30,000",
+          note: "8–10 units",
           featured: true,
           badge: "Most Popular",
         },
         {
           id: "3",
-          title: "80W–150W+",
-          subtitle: "Highways & bulk projects",
-          price: "Custom",
-          note: "Bulk discount available",
+          title: "3 kW",
+          subtitle: "Large Homes (3–4 BHK)",
+          price: "₹1,45,000 – ₹1,75,000",
+          note: "12–15 units",
           featured: false,
         },
       ],
     },
     farmerSupport: {
-      title: "We also offer",
+      title: "Scheme Benefits",
       items: [
-        "Bulk installation packages for large projects",
-        "Government project support & documentation",
-        "Long-lasting lithium battery systems",
-        "Reduced electricity & maintenance cost over 25+ years",
+        "Subsidy up to ₹78,000",
+        "Reduced installation cost",
+        "Lower electricity bills",
+        "Faster return on investment",
       ],
     },
     serviceCoverage: {
-      title: "Solar Light Installation in Lucknow & Uttar Pradesh",
-      subtitle: "Our services cover:",
+      title: "Solar Subsidy & Government Schemes in Uttar Pradesh",
+      subtitle: "We Help With",
       locations: [
-        "Lucknow",
-        "Kanpur",
-        "Ayodhya",
-        "Barabanki",
-        "Sitapur",
-        "Sultanpur",
-        "Nearby rural areas across UP",
+        "Subsidy application",
+        "Required documentation",
+        "UPPCL approvals",
+        "Net metering process",
       ],
       bottomText:
-        "Our expert installation ensures long-term system performance and reliability.",
+        "Our team ensures a smooth and hassle-free experience from subsidy application to final system handover.",
     },
     ctaSection: {
-      title: "Light Up Your Area with Solar Power — Zero Electricity Cost",
+      title: "Ready to Switch to Solar? Get a Free Consultation Today",
       subtitle:
-        "Solar street lights are the smart and cost-saving lighting solution for roads, colonies, and villages. Contact Vasudhaiv Enterprises to install Solar Street Lights in Lucknow and across Uttar Pradesh",
+        "Vasudhaiv Enterprises provides expert solar panel installation across Lucknow and Uttar Pradesh — with complete subsidy support, net metering, and post-installation service",
       buttons: [
         {
           label: "Book Free Site Visit",
@@ -266,186 +234,200 @@ export const serviceOneData: ServiceDataType[] = [
     ],
     faq: [
       {
-        question: "How long do the lights stay on?",
+        question: "What is the cost of solar panel installation in Lucknow?",
         answer:
-          "Our lights are designed for 12 hours of full brightness per night.",
+          "The cost depends on system size and brand. Residential systems average between ₹65,000 to ₹1,75,000 after subsidy.",
         delay: ".3",
       },
       {
-        question: "Do they work in cloudy/rainy weather?",
+        question:
+          "Is subsidy available for solar installation in Uttar Pradesh?",
         answer:
-          "Yes — lithium battery backup works 2–3 days without direct sunlight.",
+          "Yes. Under PM Surya Ghar Muft Bijli Yojana, you can get a government subsidy of up to ₹78,000.",
         delay: ".5",
       },
       {
-        question: "Can we get bulk project pricing?",
+        question: "Which solar system is best for home use?",
         answer:
-          "Yes — we offer discounted bulk rates for colony & govt. projects.",
+          "For most Lucknow homes, an on-grid solar system is best as it reduces electricity bills through net metering.",
         delay: ".7",
       },
       {
-        question: "Do you handle government tenders?",
-        answer: "Yes — panchayat, nagar nigam, and PWD solar projects handled.",
+        question: "How much electricity bill can solar panels save?",
+        answer:
+          "Solar panels can reduce your electricity bill by 70% to 90%, depending on usage and system size.",
         delay: ".9",
+      },
+      {
+        question: "How long does solar installation take?",
+        answer:
+          "A normal residential rooftop solar installation takes around 1 to 3 days to complete.",
+        delay: "1.1",
+      },
+      {
+        question: "Do solar panels work during power cuts?",
+        answer:
+          "On-grid systems do not work during power cuts. Hybrid systems with battery backup can provide electricity during outages.",
+        delay: "1.3",
       },
     ],
   },
   {
     id: "residential-solar-installation-lucknow",
     slug: "residential-solar-installation-lucknow",
-    metatitle:
-      "Solar Water Pump Installation in Lucknow | Vasudhaiv Enterprises",
+    metatitle: "Solar Panel for Home in Lucknow | Vasudhaiv Enterprises",
     metadesc:
-      "Solar street light installation in Lucknow & UP. LED solar lights for roads, colonies, villages & govt. projects. Affordable pricing. Call now.",
+      "Residential solar panel installation in Lucknow. Govt. subsidy ₹78,000, custom home design, 1–3 day installation. Vasudhaiv Enterprises.",
     title: "Residential Solar Solutions",
-    subtitle: "Solar Panel for Your Home in Lucknow",
+    subtitle:
+      "Solar Panel for Your Home in Lucknow — Save Up to 90% on Electricity Bills",
     bannerImage: "/img/breadcrumb.jpg",
     mainimg: "",
     img2: "/img/service/solarpumpimg2.png",
     img3: "/img/service/solarpunpimg3.png",
-    bannerTitle: "Solar Panel for Your Home in Lucknow  ",
+    bannerTitle: "Solar Panel for Your Home in Lucknow",
     bannerSubTitle:
       "Solar Panel for Home in Lucknow — Save Up to 90% on Electricity Bills",
-    bannertagline: "",
+    bannertagline: "Solar Panel for Home in Lucknow | Vasudhaiv Enterprises ",
     description:
-      "These energy systems at your home are cost-effective and can aid you in lowering your monthly energy expenditures and achieving greater cost savings over the long run.",
+      "Vasudhaiv Enterprises helps Lucknow homeowners switch to clean and affordable solar energy. Whether you live in a 1BHK apartment or a large bungalow, we design the perfect solar system for your home — with complete subsidy support and expert installation.",
     detailsDescription:
-      "Our Solar Annual Maintenance Contract (AMC) is designed to protect your investment. We offer periodic cleaning, inverter health checks, and wiring inspections to prevent power drops and extend equipment life.",
+      "Our residential solar solutions are designed for maximum savings, long-term performance, and zero maintenance headaches for families across Lucknow and Uttar Pradesh",
     icon: "/img/service/icon/s-icon-2.svg",
     link: "/services/5",
     delay: ".3",
     image: "/img/service/details-1.jpg",
     serviceTitle: "Solar Panel for Your Home in Lucknow",
-    servicesubline:
-      "At Vasudhaiv Enterprises, we provide complete installation of solar-powered street lighting systems",
-    servicebottomline:
-      "Our promise: fully efficient, reliable, and low-maintenance solar lighting for every project",
+    servicesubline: "Benefits With Our Service",
+    servicebottomline: "Complete installation in just 1–3 days",
     servicePointer: [
-      "Solar LED street light installation",
-      "Automatic dusk-to-dawn lighting systems",
-      "High-mast solar lights for highways & large areas",
-      "Outdoor boundary and perimeter lighting",
-      "Complete installation and post-installation maintenance",
+      "Save up to 90% on monthly electricity bills",
+      "Government subsidy up to ₹78,000 for home solar",
+      "Custom system design for your home size & usage",
+      "Trusted brands: Adani, Tata, Waaree solar panel",
     ],
-    typeTilte: "Types of Solar Street Lights We Install",
+    typeTilte: "How Much Roof Space Does Your Home Need for Solar",
     typeSubTitle:
-      "We help you select and install the best solar lighting type based on your project",
+      "The amount of roof space required for solar panels depends on your electricity usage and system size.",
     servicetype: [
-      "LED Solar Street Lights Standard roads & colonies — most popular",
-      "Integrated Solar Street Lights All-in-one panel + battery + light",
-      "High Mast Solar Lights Highways, parking lots, large areas",
-      "Motion Sensor Street Lights Auto-dim + brighten on movement",
-      "Smart Solar Lighting Systems Remote monitoring + IoT-enabled — ideal for smart city & govt. projects",
+      " 1kW 80–100 sq. ft. ~1 car parking spac",
+      "2kW 160–200 sq. ft. Small rooftop",
+      "3k 250–300 sq. ft Medium rooftop",
+      "5kW 400–500 sq. ft. Large bungalow",
     ],
     typeSubTitlebootom:
-      "We first assess your requirements and help you choose the most suitable system",
-    benifitTilte: "Why Solar Street Lights Are the Better Choice",
+      "Most Indian homes in Lucknow easily have enough rooftop space for solar installation",
+    benifitTilte: "Choose the Right Solar System Size for Your Home",
     benifitSubTitle:
-      "Here are the key benefits of choosing solar-powered street lighting",
+      "Choosing the right system size is important for maximum savings",
     benifits: [
-      "Zero Electricity Cost 100% solar powered",
-      "Automatic On/Off Dusk-to-dawn sensor",
-      "Minimal Maintenance Low upkeep cost",
-      "Long Battery Backup 12+ hours full brightness",
-      "Eco-Friendly Zero carbon emissions",
-      "No Wiring Needed Rural areas mein bhi easy install",
+      "1kW Solar System — Best for small homes with lights, fans & TV",
+      "Ideal for 1–2 BHK homes — Generates 4–5 units/day",
+      "2kW Solar System — Runs fridge, washing machine & basic appliances",
+      "Ideal for 2–3 BHK homes — Saves ₹1,500–₹2,500/month",
+      "3kW–5kW Solar System — Perfect for AC & multiple appliances",
+      "Ideal for 3–5 BHK homes / villas — Reduces bills by 80–90%",
     ],
     installationProcess: {
-      title: "Ideal Applications for Solar Street Lights  ",
-      subtitle: "Our solar street lighting solutions are suitable for:",
+      title: "How Net Metering Works After Solar Installation",
+      subtitle:
+        "Net metering allows you to save more by exporting extra solar electricity to the grid.",
       steps: [
         {
           id: "1",
-          title: "Roads & Highways",
-          description: "",
+          title: "Solar panels generate electricity during the day",
+          description:
+            "Your home uses solar power first — free electricity during daylight hours.",
         },
         {
           id: "2",
-          title: "Residential Colonies",
-          description: "",
+          title: "Extra power is sent to the UPPCL grid",
+          description:
+            "Surplus generation goes back to the electricity grid automatically.",
         },
         {
           id: "3",
-          title: "Villages & Gram Panchayat",
-          description: "",
+          title: "Your meter runs backward (credits accumulate)",
+          description:
+            "UPPCL gives you credit units for every unit sent to the grid.",
         },
         {
           id: "4",
-          title: "Industrial Parks",
-          description: "",
+          title: "You pay only for net electricity used",
+          description:
+            "Your final bill = units consumed minus units exported to grid.",
         },
         {
           id: "5",
-          title: "Govt. & Nagar Nigam Projects",
-          description: "",
+          title: "Monthly savings increase automatically",
+          description:
+            "The more excess solar energy you export, the more savings you receive on electricity bills.",
         },
         {
           id: "6",
-          title: "Parking Lots & Campuses",
-          description: "",
+          title: "Enjoy long-term reduced electricity costs",
+          description:
+            "This system ensures maximum savings on your electricity bill every month.",
         },
       ],
     },
     pricingSection: {
-      title: "Solar Street Light Cost & Pricing",
+      title: "How Much Will You Save Monthly on Your Electricity Bill",
       subtitle:
-        "Solar street light pricing depends on wattage, battery type, pole height, and installation location.",
+        "Installing a home solar system can significantly reduce your electricity expenses. Here's an estimate based on system size:",
       plans: [
         {
           id: "1",
-          title: "12W–30W",
-          subtitle: "Small roads / lanes",
-          price: "₹X,XXX",
-          note: "per unit installed",
+          title: "1 kW",
+          subtitle: "Monthly Savings",
+          price: "₹800 – ₹1,000",
+          note: "	1–2 BHK 	4–5 units",
           featured: false,
         },
         {
           id: "2",
-          title: "40W–60W",
-          subtitle: "Colonies & village roads",
-          price: "₹X,XXX",
-          note: "per unit installed",
+          title: "2 kW",
+          subtitle: "Monthly Savings",
+          price: "₹1,500 – ₹2,500",
+          note: "2–3 BHK",
           featured: true,
-          badge: "Most Popular",
+          badge: "8–10 units",
         },
         {
           id: "3",
-          title: "80W–150W+",
+          title: "3 kw",
           subtitle: "Highways & bulk projects",
-          price: "Custom",
-          note: "Bulk discount available",
+          price: "₹3,000 – ₹4,500",
+          note: "3–4 BHK 12–15 units",
           featured: false,
         },
       ],
     },
     farmerSupport: {
-      title: "We also offer",
+      title: "Subsidy Benefits",
       items: [
-        "Bulk installation packages for large projects",
-        "Government project support & documentation",
-        "Long-lasting lithium battery systems",
-        "Reduced electricity & maintenance cost over 25+ years",
+        "Up to ₹78,000 subsidy",
+        "Lower installation cost",
+        "Faster return on investment",
+        "Reduced electricity bills",
       ],
     },
     serviceCoverage: {
-      title: "Solar Light Installation in Lucknow & Uttar Pradesh",
-      subtitle: "Our services cover:",
+      title: "PM Surya Ghar Yojana — Government Subsidy for Home Solar in UP",
+      subtitle: "We Help With",
       locations: [
-        "Lucknow",
-        "Kanpur",
-        "Ayodhya",
-        "Barabanki",
-        "Sitapur",
-        "Sultanpur",
-        "Nearby rural areas across UP",
+        "Complete subsidy application",
+        "Required documentation",
+        "UPPCL approvals",
+        "Net metering process",
       ],
       bottomText:
-        "Our expert installation ensures long-term system performance and reliability.",
+        "We help homeowners in Lucknow with complete subsidy application, documentation, and approval processes",
     },
     ctaSection: {
-      title: "Light Up Your Area with Solar Power — Zero Electricity Cost",
+      title: "Ready to Switch to Solar at Home? Book a Free Site Survey Today",
       subtitle:
-        "Solar street lights are the smart and cost-saving lighting solution for roads, colonies, and villages. Contact Vasudhaiv Enterprises to install Solar Street Lights in Lucknow and across Uttar Pradesh",
+        "Vasudhaiv Enterprises provides expert residential solar installation across Lucknow and Uttar Pradesh — with complete PM Surya Ghar subsidy support, net metering, and 25-year warranty",
       buttons: [
         {
           label: "Book Free Site Visit",
@@ -466,35 +448,48 @@ export const serviceOneData: ServiceDataType[] = [
       bottomText: "“Free Site Visit” is the best-performing ",
     },
     whychooseus: [
-      "Certified solar lighting experts",
-      "ISI / BIS certified products only",
-      "Affordable installation for all project sizes",
-      "Govt. & private projects both handled",
-      "Best after-sales support & AMC",
+      "Certified solar experts",
+      "ISI / BIS certified products",
+      "Affordable installation",
+      "Govt. & private projects",
+      "Best after-sales & AMC",
     ],
     faq: [
       {
-        question: "How long do the lights stay on?",
+        question: "Which solar system is best for home in Lucknow?",
         answer:
-          "Our lights are designed for 12 hours of full brightness per night.",
+          "For most homes, a 2kW–3kW on-grid solar system is best. It saves ₹1,500–₹4,500 per month on electricity bills.",
         delay: ".3",
       },
       {
-        question: "Do they work in cloudy/rainy weather?",
+        question: "How much roof space is needed for solar panels?",
         answer:
-          "Yes — lithium battery backup works 2–3 days without direct sunlight.",
+          "A 1kW system needs 80–100 sq. ft. Most Lucknow homes have more than enough rooftop area.",
         delay: ".5",
       },
       {
-        question: "Can we get bulk project pricing?",
+        question: "Is PM Surya Ghar Yojana subsidy available in UP?",
         answer:
-          "Yes — we offer discounted bulk rates for colony & govt. projects.",
+          "Yes — up to ₹78,000 subsidy for residential solar. We handle the complete application process.",
         delay: ".7",
       },
       {
-        question: "Do you handle government tenders?",
-        answer: "Yes — panchayat, nagar nigam, and PWD solar projects handled.",
+        question: "What is net metering and how does it work?",
+        answer:
+          "Net metering sends extra solar electricity to the UPPCL grid. You get credit units and pay only for net electricity used.",
         delay: ".9",
+      },
+      {
+        question: "How long does home solar installation take?",
+        answer:
+          "A residential rooftop solar installation is completed in 1–3 days with zero disruption to daily life.",
+        delay: "1.1",
+      },
+      {
+        question: "What is included in the home solar package?",
+        answer:
+          "Solar panels, inverter, mounting structure, wiring, net metering setup, and full installation & testing — everything included.",
+        delay: "1.3",
       },
     ],
   },
