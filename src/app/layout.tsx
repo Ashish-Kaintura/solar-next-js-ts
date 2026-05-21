@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat_Alternates, Plus_Jakarta_Sans } from "next/font/google"; // <--- Google Fonts Imported
+import { Plus_Jakarta_Sans } from "next/font/google"; // <--- Sirf clean font rakha hai
 import "@/assets/css/all.min.css";
 import "@/assets/scss/main.scss";
 import "@/assets/css/animate.css";
@@ -7,23 +7,16 @@ import "react-modal-video/scss/modal-video.scss";
 import AddAnimation from "@/components/ui/addAnimation";
 import CustomMouseCursor from "@/components/ui/customMouseCursor";
 
-// 1. Montserrat Alternates Font Initialize kiya (Headings & Body ke liye)
-const montserratAlternates = Montserrat_Alternates({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-montserrat-alternates", // Agar future me variable use karna ho
-});
-
-// 2. Plus Jakarta Sans Font Initialize kiya (Backup/Secondary font template ka)
+// Sirf Plus Jakarta Sans ko initialize kiya
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-plus-jakarta-sans",
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-jakarta",
 });
 
 export const metadata: Metadata = {
-  title: "Sungo  - Ecology & Solar Energy Next.js Template",
-  description: "Sungo  - Ecology & Solar Energy Next.js and Bootstrap Template",
+  title: "Vashdhaiv Enterprises - Solar Solutions",
+  description: "Solar Panel Installation Company In Lucknow",
 };
 
 export default function RootLayout({
@@ -33,9 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Dono fonts ki classes ko html/body par inject kar diya */}
+      {/* Ab pooray body aur website par sirf yehi ek font apply hoga */}
       <body
-        className={`${montserratAlternates.className} ${plusJakartaSans.className}`}
+        className={`${plusJakartaSans.variable} ${plusJakartaSans.className}`}
       >
         <AddAnimation />
         <CustomMouseCursor />
