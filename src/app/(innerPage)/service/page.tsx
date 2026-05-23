@@ -1,35 +1,50 @@
-import PageTitle from "@/components/sections/pageTitle"
-import ServiceCard from "@/components/sections/services/serviceCard"
-import { serviceOneData } from "@/db/serviceOneData"
+import type { Metadata } from "next"; // Type safety import
+import PageTitle from "@/components/sections/pageTitle";
+import ServiceCard from "@/components/sections/services/serviceCard";
+import { serviceOneData } from "@/db/serviceOneData";
+
+// 1. Export the metadata configuration object
+export const metadata: Metadata = {
+  title: "Our Solar Services | Residential & Commercial Solar Lucknow",
+  description:
+    "Explore our comprehensive solar energy services in Lucknow and nearby areas. From free site surveys to residential rooftop installations and commercial setups.",
+  keywords: [
+    "Solar energy services Lucknow",
+    "Rooftop solar installation",
+    "Commercial solar setups Uttar Pradesh",
+  ],
+};
 
 const Service = () => {
-    return (
-        <>
-            <PageTitle title="Services" currentPage="Services" />
-            <section className="service-section fix section-padding">
-                <div className="container">
-                    <div className="section-title text-center">
-                        <span className="wow slideUp">Services We Offer</span>
-                        <h2 className="wow slideUp" data-delay=".3">
-                            Provide Comprehensive Ecological<br /> Service
-                        </h2>
-                    </div>
-                    <div className="service-wrapper mb-0">
-                        <div className="row">
-                            {
-                                serviceOneData.map((service) => (
-                                    <div key={service.id} className="col-xl-3 col-lg-4 col-md-6 wow slideUp" data-delay=".3">
-                                        <ServiceCard service={service} className="box-shadow" />
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
+  return (
+    <>
+      <PageTitle title="Services" currentPage="Services" />
+      <section className="service-section fix section-padding">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="wow slideUp">Services We Offer</span>
+            <h2 className="wow slideUp" data-delay=".3">
+              Provide Comprehensive Ecological
+              <br /> Service
+            </h2>
+          </div>
+          <div className="service-wrapper mb-0">
+            <div className="row">
+              {serviceOneData.map((service) => (
+                <div
+                  key={service.id}
+                  className="col-xl-3 col-lg-4 col-md-6 wow slideUp"
+                  data-delay=".3"
+                >
+                  <ServiceCard service={service} className="box-shadow" />
                 </div>
-            </section>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
-        </>
-    )
-}
-
-export default Service
+export default Service;

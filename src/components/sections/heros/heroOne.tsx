@@ -16,22 +16,22 @@ interface SlideType {
 const slidesData: SlideType[] = [
   {
     id: 1,
-    image: "/img/hero/hero-12.jpg",
+    image: "/img/hero/banner1.png",
     title: "TRUSTED SOLAR COMPANY IN LUCKNOW",
     heading: "Vasudhaiv Enterprises — Solar Company in Lucknow",
     description:
       " Trusted rooftop solar solutions for homes & businesses in Uttar Pradesh with professional installation, government subsidy support, and long-term savings.",
-    link: "/",
+    link: "/contact",
   },
-  {
-    id: 2,
-    image: "/img/hero/hero-7.jpg",
-    title: "Welcome to Vashdhaiv Enterprises",
-    heading: "Solar Panel Installation Company in Lucknow",
-    description:
-      "Affordable rooftop solar solutions for homes, businesses, and farms with professional installation and subsidy support.",
-    link: "/",
-  },
+  // {
+  //   id: 2,
+  //   image: "/img/hero/hero-7.jpg",
+  //   title: "Welcome to Vashdhaiv Enterprises",
+  //   heading: "Solar Panel Installation Company in Lucknow",
+  //   description:
+  //     "Affordable rooftop solar solutions for homes, businesses, and farms with professional installation and subsidy support.",
+  //   link: "/",
+  // },
 ];
 
 const HeroOne = () => {

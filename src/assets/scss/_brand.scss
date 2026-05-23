@@ -13,7 +13,7 @@
             content: "";
             height: 1px;
             width: 480px;
-            background-color: $border-color;
+            // background-color: $border-color;
 
             @include breakpoint (max-xxl){
                 display: none;
@@ -27,7 +27,7 @@
             content: "";
             height: 1px;
             width: 480px;
-            background-color: $border-color;
+            // background-color: $border-color;
 
             @include breakpoint (max-xxl){
                 display: none;

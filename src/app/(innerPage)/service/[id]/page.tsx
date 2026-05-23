@@ -7,8 +7,41 @@ import Image from "next/image";
 import ServiceFAQ from "@/components/sections/services/ServiceFAQ";
 import HeroBanner from "@/components/sections/services/HeroBanner";
 import Link from "next/link";
+import { Metadata } from "next";
+
 interface PageProps {
   params: { id: string };
+}
+
+// Generates dynamic metadata based on the specific service data
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const service = serviceOneData.find(
+    (item) => item.id.toString() === params.id,
+  );
+
+  if (!service) {
+    return {
+      title: "Service Not Found",
+    };
+  }
+
+  return {
+    title: `${service.metatitle || "Service Details"} |vasudhaivaentserprises`,
+    description:
+      service.metadesc || "Learn more about our professional services.",
+    openGraph: {
+      title: service.title,
+      description: service.metadesc,
+      images: [
+        {
+          url: service.mainimg || "/img/service/details-1.jpg",
+          alt: service.subtitle || service.metatitle,
+        },
+      ],
+    },
+  };
 }
 
 // Generates static paths for better performance (SSG)
@@ -56,7 +89,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                       className="rounded shadow-sm w-100 h-50"
                     />
                   </div>
-                  
+
                   <div className="details-content">
                     <h3 className="mb-3" style={{ color: "var(--header)" }}>
                       {service.subtitle}
@@ -77,7 +110,7 @@ const ServiceDetails = ({ params }: PageProps) => {
                         borderColor: "var(--border)",
                       }}
                     >
-                      <ServiceDetailsVideoPopup />
+                      {/* <ServiceDetailsVideoPopup /> */}
                       <div className="content mt-4 mt-md-0 ms-md-4">
                         <h4 style={{ color: "var(--header)" }}>
                           {service.serviceTitle}
@@ -345,7 +378,6 @@ const ServiceDetails = ({ params }: PageProps) => {
                 </div>
               )}
 
-              {/* Farmer Support & Coverage (2 Columns) */}
               {/* Farmer Support & Coverage (2 Columns) */}
               {(service.farmerSupport || service.serviceCoverage) && (
                 <div className="row mt-4 g-4">

@@ -71,7 +71,7 @@ export const menuData: MenuItemDataType[] = [
     submenu: [
       {
         title: "Solar Panel Installation",
-        link: "/service/solar-panel-installation-luckknow",
+        link: "/service/solar-panel-installation-lucknow",
       },
       {
         title: "Residential Solar Installation",

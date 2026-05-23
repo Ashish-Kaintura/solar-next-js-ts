@@ -83,11 +83,11 @@ export interface ServiceDataType {
 
 export const serviceOneData: ServiceDataType[] = [
   {
-    id: "solar-panel-installation-luckknow",
-    slug: "solar-panel-installation-luckknow",
-    metatitle: "Solar Panel Installation in Lucknow | Vasudhaiv Enterprises",
+    id: "solar-panel-installation-lucknow",
+    slug: "solar-panel-installation-lucknow",
+    metatitle: "Solar Panel for Home in Lucknow | Rooftop Solar",
     metadesc:
-      "Expert solar panel installation in Lucknow. PM Surya Ghar subsidy ₹78,000. On-grid, off-grid & hybrid. Call Vasudhaiv Enterprises.",
+      "Install solar panels for your home in Lucknow ,Uttar Pradesh . Reduce electricity bills, get PM Surya Ghar subsidy & free rooftop site survey. Enquire now.",
     title: "Solar Panel Installation",
     subtitle: "Solar Panel Installation in Lucknow for Homes & Businesses",
     bannerImage: "/img/breadcrumb.jpg",
@@ -275,9 +275,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "residential-solar-installation-lucknow",
     slug: "residential-solar-installation-lucknow",
-    metatitle: "Solar Panel for Home in Lucknow | Vasudhaiv Enterprises",
+    metatitle: "Solar Panel for Home in Lucknow | Rooftop Solar",
     metadesc:
-      "Residential solar panel installation in Lucknow. Govt. subsidy ₹78,000, custom home design, 1–3 day installation. Vasudhaiv Enterprises.",
+      "Install solar panels for your home in Lucknow ,Uttar Pradesh . Reduce electricity bills, get PM Surya Ghar subsidy & free rooftop site survey. Enquire now.",
     title: "Residential Solar Solutions",
     subtitle:
       "Solar Panel for Your Home in Lucknow — Save Up to 90% on Electricity Bills",
@@ -496,9 +496,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "commercial-solar-installation-lucknow",
     slug: "commercial-solar-installation-lucknow",
-    metatitle: "Commercial Solar Solutions",
+    metatitle: "Commercial Solar Installation in Lucknow | Business Solar",
     metadesc:
-      "Commercial solar installation for industries, offices & factories in Lucknow & UP. On-grid systems, net metering & full project support. Call now",
+      "Reduce business electricity costs with commercial solar installation in Lucknow ,Uttar Pradesh . Best ROI, top brands & expert support. Get free quote today.",
     title: "Commercial Solar Solutions",
     subtitle: "Commercial Solar Solutions for Businesses",
     bannerImage: "/img/breadcrumb.jpg",
@@ -669,8 +669,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "solar-amc-lucknow",
     slug: "solar-amc-lucknow",
-    metatitle: "Solar AMC Services In Lucknow And Uttar Pradesh",
-    metadesc: "Professional Solar Annual Maintenance & Repair Services",
+    metatitle: "Solar AMC Services in Lucknow | Solar Maintenance Plans",
+    metadesc:
+      "Keep your solar system at peak performance with AMC services in Lucknow ,Uttar Pradesh . Panel cleaning, repair & inspection by certified technicians.",
     title: "Solar AMC (Maintenance)",
     subtitle: " Solar Panel Maintenance Services",
     bannerImage: "/img/service/waterpunpbanner.png",
@@ -852,10 +853,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "solar-water-pumps-lucknow",
     slug: "solar-water-pumps",
-    metatitle:
-      "Solar Water Pump Installation in Lucknow | Vasudhaiv Enterprises",
+    metatitle: "Solar Water Pump in Lucknow | PM Kusum Subsidy",
     metadesc:
-      "Solar water pump installation in Lucknow & UP. Submersible & surface pumps with govt. subsidy support. Call Vasudhaiv Enterprises",
+      "Install solar water pumps for agriculture & home use in Lucknow, Uttar Pradesh. Check solar pump price, PM Kusum subsidy & book free consultation.",
     title: "Solar Water Pumps",
     subtitle: "Solar Water Pumps for Agriculture",
     bannerImage: "/img/service/waterpunpbanner.png",
@@ -1055,9 +1055,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "solar-atta-chakki-lucknow",
     slug: "solar-atta-chakki-lucknow",
-    metatitle: "Solar Atta Chakki Installation in Lucknow & Uttar Pradesh",
+    metatitle: "Solar Atta Chakki in Lucknow | Price & Installation ",
     metadesc:
-      "Solar atta chakki installation in Lucknow & UP. Solar flour mill for villages, small businesses & rural entrepreneurs. Affordable pricing. Call now",
+      "Get solar atta chakki installation for home & commercial use in Lucknow ,Uttar Pradesh . Run your flour mill on solar energy. Check price & book free consultation.",
     title: "Solar Atta Chakki",
     subtitle: "Solar Atta Chakki — Affordable Solar Flour Mill Solution",
     bannerImage: "/img/breadcrumb.jpg",
@@ -1254,10 +1254,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "solar-street-light-lucknow",
     slug: "solar-street-lights-lucknow",
-    metatitle:
-      "Solar Water Pump Installation in Lucknow | Vasudhaiv Enterprises",
+    metatitle: "Solar Street Light in Lucknow | Price & Installation ",
     metadesc:
-      "Solar street light installation in Lucknow & UP. LED solar lights for roads, colonies, villages & govt. projects. Affordable pricing. Call now.",
+      "Install solar street lights for homes, societies & municipalities in Lucknow ,Uttar Pradesh . Check solar street light price, types & book free consultation today.",
     title: "Solar Street Lights",
     subtitle: "Solar Street Light Solutions for Lucknow & Uttar Pradesh",
     bannerImage: "/img/breadcrumb.jpg",

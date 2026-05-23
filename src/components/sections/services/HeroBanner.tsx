@@ -55,7 +55,7 @@ export default function HeroBanner({ service }: { service: any }) {
       >
         <div style={{ maxWidth: "700px" }}>
           {/* Tagline */}
-          {service.bannertagline && (
+          {/* {service.bannertagline && (
             <span
               style={{
                 display: "inline-block",
@@ -70,7 +70,7 @@ export default function HeroBanner({ service }: { service: any }) {
             >
               {service.bannertagline}
             </span>
-          )}
+          )} */}
 
           {/* Dynamic Title */}
           <h1
@@ -99,20 +99,23 @@ export default function HeroBanner({ service }: { service: any }) {
           </p>
 
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <button
-              style={{
-                background: "var(--theme)",
-                color: "white",
-                border: "none",
-                padding: "15px 32px",
-                borderRadius: "10px",
-                fontWeight: "700",
-                fontSize: "16px",
-                cursor: "pointer",
-              }}
-            >
-              Get Free Quote
-            </button>
+            <a href="/contact">
+              {" "}
+              <button
+                style={{
+                  background: "var(--theme)",
+                  color: "white",
+                  border: "none",
+                  padding: "15px 32px",
+                  borderRadius: "10px",
+                  fontWeight: "700",
+                  fontSize: "16px",
+                  cursor: "pointer",
+                }}
+              >
+                Get Free Quote
+              </button>
+            </a>
 
             {/* <button
               style={{

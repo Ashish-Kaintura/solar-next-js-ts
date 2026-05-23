@@ -99,22 +99,25 @@ export default function HeroBanner() {
               flexWrap: "wrap",
             }}
           >
-            <button
-              style={{
-                background: "#B8622D",
-                color: "white",
-                border: "none",
-                padding: "15px 32px",
-                borderRadius: "10px",
-                fontWeight: "700",
-                fontSize: "16px",
-                cursor: "pointer",
-              }}
-            >
-              Get Free Quote
-            </button>
+            <a href="/contact">
+              {" "}
+              <button
+                style={{
+                  background: "#B8622D",
+                  color: "white",
+                  border: "none",
+                  padding: "15px 32px",
+                  borderRadius: "10px",
+                  fontWeight: "700",
+                  fontSize: "16px",
+                  cursor: "pointer",
+                }}
+              >
+                Get Free Quote
+              </button>
+            </a>
 
-            <button
+            {/* <button
               style={{
                 background: "transparent",
                 color: "#ffffff",
@@ -127,7 +130,7 @@ export default function HeroBanner() {
               }}
             >
               Learn More
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

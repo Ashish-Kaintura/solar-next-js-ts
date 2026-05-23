@@ -12,7 +12,7 @@ const PartnersOne = ({ className }: { className?: string }) => {
         <div className="brand-wrapper">
           {/* Brand Trust Title with WOW Animation */}
           <h6 className="text-center wow slideUp mb-5" data-wow-delay=".3s">
-            1k + Brands Trust Us
+            Our Trusted Solar Brand Partners
           </h6>
 
           <Swiper
