@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: <SuLocation />,
     label: "Location",
-    value: "615/395 Shri,Sitapur Road Gayatri Nagar, Lucknow UP",
+    value: "615/395, Sitapur Road, Gayatri Nagar, Lucknow, UP — 226021",
   },
 ];
 

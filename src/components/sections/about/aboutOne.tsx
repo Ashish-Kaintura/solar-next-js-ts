@@ -30,16 +30,16 @@ const AboutOne = () => {
                 <div
                   className="about-image-1 bg-cover wow slideLeft"
                   data-delay=".3"
-                  style={{ backgroundImage: 'url("/img/about/01.jpg")' }}
+                  style={{ backgroundImage: 'url("/img/about/homeabout.png")' }}
                 >
                   <div className="about-image-2 wow slideUp" data-delay=".5">
-                    <Image
+                    {/* <Image
                       width={249}
                       height={272}
                       sizes="100vw"
                       src="/img/about/02.jpg"
                       alt="about-img"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const AboutOne = () => {
                       alt="author-img"
                     />
                     <div className="content">
-                      <h6>Ronald Richards</h6>
+                      <h6>Shobhit Maurya.</h6>
                       <p>Co, Founder</p>
                     </div>
                   </div>

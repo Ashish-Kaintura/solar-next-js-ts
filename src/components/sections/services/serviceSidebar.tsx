@@ -3,20 +3,32 @@ import Link from "next/link";
 const servicesofside = [
   {
     name: "Solar Panel Installation",
-    link: "/service/solar-panel-installation-in-lucknow/",
+    link: "/service/solar-panel-installation-lucknow",
   },
   {
-    name: "Residential Solar. ",
+    name: "Residential Solar Installation",
     link: "/service/residential-solar-installation-lucknow",
   },
   {
-    name: "Commercial Solar",
+    name: "Commercial Solar Installation",
     link: "/service/commercial-solar-installation-lucknow",
   },
-  { name: "Solar AMC", link: "/service/solar-amc-lucknow/" },
-  { name: "Solar Pumps", link: "/service/solar-water-pump-lucknow" },
-  { name: "Solar Atta Chakki", link: "/service/solar-atta-chakki-lucknow" },
-  { name: "Solar Street Light", link: "/service/solar-street-light-lucknow" },
+  {
+    name: "Solar AMC Services",
+    link: "/service/solar-amc-lucknow",
+  },
+  {
+    name: "Solar Water Pump",
+    link: "/service/solar-water-pumps-lucknow",
+  },
+  {
+    name: "Solar Atta Chakki",
+    link: "/service/solar-atta-chakki-lucknow",
+  },
+  {
+    name: "Solar Street Light",
+    link: "/service/solar-street-light-lucknow",
+  },
 ];
 
 const openingHours = [
@@ -36,7 +48,7 @@ const ServiceSidebar = ({ service }: { service?: any }) => {
         <div className="widget-categories">
           <ul>
             {servicesofside.map((servicesofside, index) => (
-              <li key={index} >
+              <li key={index}>
                 <Link href={servicesofside.link}>{servicesofside.name}</Link>
                 <i className="fa-solid fa-arrow-right-long" />
               </li>

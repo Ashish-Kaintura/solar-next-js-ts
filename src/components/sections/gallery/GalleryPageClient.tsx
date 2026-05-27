@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import Image from "next/image";
 import PageTitle from "@/components/sections/pageTitle";
@@ -13,39 +14,81 @@ interface GalleryItem {
 const GALLERY_DATA: GalleryItem[] = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&auto=format&fit=crop&q=60",
-    title: "Valley of Light",
-    category: "Nature",
+    url: "/img/gallery/unnamed (1).jpg.jpeg",
+    title: "On-Grid Residential Solar System",
+    category: "Residential Solar",
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&auto=format&fit=crop&q=60",
-    title: "Misty Mountains",
-    category: "Nature",
+    url: "/img/gallery/unnamed (2).jpg.jpeg",
+    title: "Commercial Rooftop Solar Plant",
+    category: "Commercial Solar",
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600&auto=format&fit=crop&q=60",
-    title: "Forest Path",
-    category: "Woodland",
+    url: "/img/gallery/unnamed (3).jpg.jpeg",
+    title: "Agricultural Solar Water Pump System",
+    category: "Solar Irrigation",
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1472214222541-d510753a4707?w=600&auto=format&fit=crop&q=60",
-    title: "Serene Lake",
-    category: "Water",
+    url: "/img/gallery/unnamed (4).jpg.jpeg",
+    title: "Solar Powered Atta Chakki Setup",
+    category: "Industrial Solar",
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60",
-    title: "Minimal Tech",
-    category: "Workplace",
+    url: "/img/gallery/unnamed (5).jpg.jpeg",
+    title: "Integrated Solar Street Lighting",
+    category: "Public Lighting",
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=600&auto=format&fit=crop&q=60",
-    title: "Abstract Skies",
-    category: "Abstract",
+    url: "/img/gallery/unnamed (6).jpg.jpeg",
+    title: "Rooftop Solar with Subsidy Support",
+    category: "Residential Solar",
+  },
+  // {
+  //   id: 7,
+  //   url: "/img/gallery/unnamed (7).jpg.jpeg",
+  //   title: "High-Capacity Industrial Solar Array",
+  //   category: "Commercial Solar",
+  // },
+  {
+    id: 8,
+    url: "/img/gallery/unnamed (8).jpg.jpeg",
+    title: "Solar Panel Cleaning & Maintenance",
+    category: "Solar AMC",
+  },
+  {
+    id: 9,
+    url: "/img/gallery/unnamed (9).jpg.jpeg",
+    title: "Off-Grid Solar System with Battery Backup",
+    category: "Residential Solar",
+  },
+  {
+    id: 10,
+    url: "/img/gallery/unnamed (10).jpg.jpeg",
+    title: "High-Efficiency Monocrystalline Panels",
+    category: "Solar Products",
+  },
+  {
+    id: 11,
+    url: "/img/gallery/unnamed (11).jpg.jpeg",
+    title: "On-Grid Solar Inverter Setup",
+    category: "Technical Installation",
+  },
+  {
+    id: 12,
+    url: "/img/gallery/unnamed (12).webp",
+    title: "Warehouse Rooftop Solar Installation",
+    category: "Commercial Solar",
+  },
+  {
+    id: 13,
+    url: "/img/gallery/unnamed (13).webp",
+    title: "Net Metering Compliant Solar Setup",
+    category: "Technical Installation",
   },
 ];
 
@@ -75,7 +118,8 @@ export default function GalleryPageClient() {
     },
     grid: {
       display: "grid",
-      gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
+      /* Changed minmax from 300px to 250px to make square layouts fit nicer on medium desktop screens */
+      gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
       gap: "2rem",
       maxWidth: "1200px",
       margin: "0 auto",
@@ -92,7 +136,7 @@ export default function GalleryPageClient() {
       position: "relative",
       overflow: "hidden",
       width: "100%",
-      paddingTop: "66.67%", // Maintains strict 3:2 aspect ratio
+      paddingTop: "100%", // CHANGED: Forces a strict 1:1 square box layout matching 200x200
       backgroundColor: "#e9ecef",
     },
     image: {
@@ -125,7 +169,7 @@ export default function GalleryPageClient() {
         <header style={styles.header}>
           <h1 style={styles.title}>Visual Gallery</h1>
           <p style={styles.subtitle}>
-            A curated collection of beautiful moments
+            Explore our professional solar panel installations across Lucknow
           </p>
         </header>
 
@@ -159,13 +203,13 @@ export default function GalleryPageClient() {
                     alt={item.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    priority={item.id <= 3} // Prioritizes loading top fold images
+                    priority={item.id <= 3}
                     style={dynamicImageStyle}
                   />
                 </div>
                 <div style={styles.infoContainer}>
                   <div style={styles.category}>{item.category}</div>
-                  <h3 style={styles.itemTitle}>{item.title}</h3>
+                  {/* <h3 style={styles.itemTitle}>{item.title}</h3> */}
                 </div>
               </div>
             );

@@ -59,7 +59,7 @@ export const teamMembersOneData: TeamMemberDataType[] = [
     {
         id: 3,
         role: "UI/UX Designer",
-        name: "Ronald Richards",
+        name: "Shobhit Maurya.",
         description: "Integer at sapien nec sapien sollicitudin ultrices in ut nisl.",
         image: "/img/team/hover-1.png",
         socialLinks: [

@@ -131,7 +131,7 @@ const AboutTwo = () => {
                       alt="author-img"
                     />
                     <div className="content">
-                      <h6>Ronald Richards</h6>
+                      <h6>Shobhit Maurya.</h6>
                       <p>Co, Founder</p>
                     </div>
                   </div>

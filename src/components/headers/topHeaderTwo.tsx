@@ -27,7 +27,7 @@ const TopHeaderTwo = () => {
                     <ul className="contact-list">
                         <li>
                             <i className="far fa-envelope" />
-                            <Link href="mailto:info@example.com" className="link">info@example.com</Link>
+                            <Link href="mailto:vasudhaivaenterprises@gmail.com" className="link">vasudhaivaenterprises@gmail.com</Link>
                         </li>
                         <li>
                             <i className="fa-solid fa-phone-volume" />

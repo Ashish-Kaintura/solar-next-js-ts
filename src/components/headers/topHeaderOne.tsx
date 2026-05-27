@@ -14,8 +14,11 @@ const TopHeaderOne = ({
           <ul className="contact-list">
             <li>
               <i className="far fa-envelope" />
-              <Link href="mailto:info@example.com" className="link">
-                info@example.com
+              <Link
+                href="mailto:vasudhaivaenterprises@gmail.com"
+                className="link"
+              >
+                vasudhaivaenterprises@gmail.com
               </Link>
             </li>
             <li>
