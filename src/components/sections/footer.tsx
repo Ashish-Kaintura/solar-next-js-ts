@@ -31,11 +31,22 @@ const quickLinks = [
 ];
 
 const services = [
-  { text: "Solar Street Light", link: "/service-details" },
-  { text: "Solar AMC", link: "/service-details" },
-  { text: "Solar Water Pump", link: "/service-details" },
-  { text: "Solar Atta Chakki", link: "/service-details" },
-  { text: "Commercial Solar", link: "/service-details" },
+  {
+    text: "Solar Panel Installation",
+    link: "/service/solar-panel-installation-lucknow",
+  },
+  {
+    text: "Residential Solar Installation",
+    link: "/service/residential-solar-installation-lucknow",
+  },
+  {
+    text: "Commercial Solar Installation",
+    link: "/service/commercial-solar-installation-lucknow",
+  },
+  { text: "Solar AMC Services", link: "/service/solar-amc-lucknow" },
+  { text: "Solar Water Pump", link: "/service/solar-water-pumps-lucknow" },
+  { text: "Solar Atta Chakki", link: "/service/solar-atta-chakki-lucknow" },
+  { text: "Solar Street Light", link: "/service/solar-street-light-lucknow" },
 ];
 
 const recentPosts = [
@@ -130,16 +141,16 @@ const Footer = () => {
                     and farms across Uttar Pradesh since 2021.
                   </p>
                   <div className="social-icon d-flex align-items-center">
-                    <Link href="#">
+                    <Link href="https://www.facebook.com/vasudhaiventerprises">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link href="#">
-                      <i className="fa-brands fa-x-twitter" />
+                    <Link href="https://www.instagram.com/vasudhaiventerprises?igsh=Nmgzd2x6MWVndTdu">
+                      <i className="fa-brands fa-instagram" />
                     </Link>
-                    <Link href="#">
+                    {/* <Link href="#">
                       <i className="fa-brands fa-linkedin-in" />
-                    </Link>
-                    <Link href="#">
+                    </Link> */}
+                    <Link href="https://www.youtube.com/@vasudhaiventerprises">
                       <i className="fa-brands fa-youtube" />
                     </Link>
                   </div>

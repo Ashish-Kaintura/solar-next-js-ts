@@ -26,7 +26,7 @@ const AboutOne = () => {
                     </h3>
                   </div>
                 </div>
-                <AboutRoundedTextVideoPopup />
+                {/* <AboutRoundedTextVideoPopup /> */}
                 <div
                   className="about-image-1 bg-cover wow slideLeft"
                   data-delay=".3"

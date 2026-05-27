@@ -20,10 +20,10 @@ const AboutTwo = () => {
                     height={138}
                     sizes="100vw"
                     src="/img/about/circle.png"
-                    alt="shape-img"
+                    alt="Trusted solar company in Lucknow, Uttar Pradesh"
                   />
                 </div>
-                <div className="counter-shape float-bob-y">
+                {/* <div className="counter-shape float-bob-y">
                   <div className="icon">
                     <Image
                       width={45}
@@ -38,21 +38,23 @@ const AboutTwo = () => {
                     </h3>
                     <p>Of Experience</p>
                   </div>
-                </div>
+                </div> */}
                 <div
                   className="about-image-1 bg-cover wow slideLeft"
                   data-delay=".3"
-                  style={{ backgroundImage: 'url("/img/about/03.png")' }}
+                  style={{
+                    backgroundImage: 'url("/img/about/who we are.png")',
+                  }}
                 >
-                  <div className="about-image-2 wow slideUp" data-delay=".5">
-                    <Image
-                      width={247}
-                      height={271}
-                      sizes="100vw"
-                      src="/img/about/04.jpg"
-                      alt="about-img"
-                    />
-                  </div>
+                  {/* <div className="about-image-2 wow slideUp" data-delay=".5">
+                      <Image
+                        width={247}
+                        height={271}
+                        sizes="100vw"
+                        src="/img/about/04.jpg"
+                        alt="about-img"
+                      />
+                    </div> */}
                 </div>
               </div>
             </div>

@@ -28,7 +28,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${service.metatitle || "Service Details"} |vasudhaivaentserprises`,
+    title: `${service.metatitle || "Service Details"}`,
     description:
       service.metadesc || "Learn more about our professional services.",
     openGraph: {

@@ -85,9 +85,9 @@ export const serviceOneData: ServiceDataType[] = [
   {
     id: "solar-panel-installation-lucknow",
     slug: "solar-panel-installation-lucknow",
-    metatitle: "Solar Panel for Home in Lucknow | Rooftop Solar",
+    metatitle: "Solar Panel Installation in Lucknow | Rooftop Solar Experts",
     metadesc:
-      "Install solar panels for your home in Lucknow ,Uttar Pradesh . Reduce electricity bills, get PM Surya Ghar subsidy & free rooftop site survey. Enquire now.",
+      "Expert solar panel installation in Lucknow for homes & offices. On-grid, off-grid & hybrid systems. Know process, size & cost. Book your free site survey today.",
     title: "Solar Panel Installation",
     subtitle: "Solar Panel Installation in Lucknow for Homes & Businesses",
     bannerImage: "/img/breadcrumb.jpg",
@@ -1064,12 +1064,12 @@ export const serviceOneData: ServiceDataType[] = [
     mainimg: "",
     img2: "/img/service/solarpumpimg2.png",
     img3: "/img/service/solarpunpimg3.png",
-    bannerTitle: "Solar Street Light Installation in Lucknow & Uttar Pradesh",
+    bannerTitle: "Solar Atta Chakki Installation in Lucknow & Uttar Pradesh",
     bannerSubTitle:
       "Solar-Powered Flour Mill for Villages, Small Shops & Rural Businesses — Affordable & Energy-Efficient",
     bannertagline: "Solar Street Light",
     description:
-      "Solar street lights are an economical and efficient lighting solution for streets, villages, highways, residential colonies, and commercial areas",
+      "We provide a long-term service of maintaining your solar system to keep you worry-free by providing quarterly and monthly visits and cleaning.",
     detailsDescription:
       "Solar Atta Chakki is a cost-effective solution for small businesses, rural entrepreneurs, and home-based flour milling units. At Vasudhaiv Enterprises, we provide Solar Atta Chakki installation services in Lucknow and across Uttar Pradesh at affordable pricing. These systems use solar energy to reduce electricity costs and improve long-term business savings. Our solar Atta Chakki systems are ideal for villages, small shops, and businesses looking for affordable and energy-efficient grinding solutions",
     icon: "/img/service/icon/s-icon-1.svg",

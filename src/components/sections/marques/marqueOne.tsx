@@ -1,21 +1,6 @@
 import Image from "next/image";
 import { Fragment } from "react";
 const textSliderData = [
-  // "Solar Pane",
-  // "Water Heating",
-  // "Solar Financing",
-  // "Hydro Power",
-  // "Solar Energy",
-  // "Solar Pane",
-  // "Water Heating",
-  // "Solar Financing",
-  // "Hydro Power",
-  // "Solar Energy",
-  // "Solar Pane",
-  // "Water Heating",
-  // "Solar Financing",
-  // "Hydro Power",
-  // "Solar Energy"
   "500+ Solar Installations Completed",
   "MNRE-Approved Solar Products",
   "Subsidy Assistance Available",
@@ -26,7 +11,6 @@ const textSliderData = [
   "Subsidy Assistance Available",
   "Experienced Installation Team",
   "End-to-End Solar Solutions",
- 
 ];
 const MarqueOne = () => {
   return (
@@ -37,7 +21,7 @@ const MarqueOne = () => {
             <li className="marquee-item">
               {textSliderData.map((text, index) => (
                 <Fragment key={index}>
-                  <span className="text-slider">{text}</span>
+                  <span className="text-slider text-white">{text}</span>
                   <span className="text-slider">
                     <Image
                       width={50}

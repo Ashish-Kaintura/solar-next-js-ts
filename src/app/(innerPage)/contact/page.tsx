@@ -19,7 +19,11 @@ export const metadata: Metadata = {
 const Contact = () => {
   return (
     <>
-      <PageTitle currentPage="Contact Us" title="Contact Us" />
+      <PageTitle
+        currentPage="Contact Us"
+        title="Get in Touch With Solar Specialists:
+Vasudhaiv Enterprises"
+      />
       <section className="contact-section fix section-padding">
         <div className="container">
           <div className="contact-wrapper-2">

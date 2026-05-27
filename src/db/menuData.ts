@@ -100,8 +100,8 @@ export const menuData: MenuItemDataType[] = [
     ],
   },
   {
-    title: "Projects",
-    link: "/project",
+    title: "Gallery",
+    link: "/gallery",
     // submenu: [
     //   {
     //     title: 'Projects',

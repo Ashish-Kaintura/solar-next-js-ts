@@ -19,11 +19,11 @@
 
 .text-slider {
     font-size: 50px;
-    height: 100px;
-    line-height: 90px;
+    height: 60px;
+    line-height: 60px;
     font-weight: 700;
     text-transform: capitalize;
-    color: $white;
+    // color: $white;
     
     &:not(:last-child){
         margin-right: 30px;
@@ -37,81 +37,98 @@
         margin-bottom: 10px;
     }
 }
-
-.marquee-inner {
-    position: absolute;
-    display: inline-flex;
-    width: 200%;
+.marquee-section {
+    position: relative;
+    overflow: hidden; // Prevents horizontal scrollbars on your page
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.marquee-list {
-    float: left;
-    width: 50%;
+.marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.marquee-inner {
+    display: flex;
+    width: max-content; // Automatically calculates total width of both tracks combined
+    
+    &.to-left {
+        // Targets both generated lists inside the inner track
+        .marqee-list {
+            animation: marqueeLeft 55s linear infinite;
+        }
+    }
+
+    &.to-right {
+        .marqee-list {
+            animation: marqueeRight 55s linear infinite;
+        }
+    }
+}
+
+.marqee-list {
+    display: flex;
+    align-items: center;
+    gap: 40px; // Gives even spacing between items automatically
+    padding: 0 20px; // Smooth buffer gap between track 1 and track 2
+    list-style: none;
+    margin: 0;
+    white-space: nowrap; // Keeps everything on a single horizontal line
 }
 
 .marquee-item {
-    float: left;
-    transition: animation 0.2s ease-out;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 
-    &.style-2 {
-        .text-slider {
-            text-transform: capitalize;
-            font-size: 60px;
-            color: $header-color;
-            margin-right: 40px;
-            line-height: 0;
-            height: 65px;
+    &.text-slider {
+        text-transform: capitalize;
+        font-size: 60px;
+        color: $header-color; // Retained your custom variable
+        line-height: 1;
 
-            @include breakpoint (max-md){
-                font-size: 36px;
-            }
+        @include breakpoint (max-md){
+            font-size: 36px;
         }
+    }
 
-        .text-style {
-            @include transition;
-            background-image: linear-gradient($theme-color,$theme-color);
-            background-position: 0 95%;
-            background-repeat: no-repeat;
-            background-size: 0% 2px;
-
-            &:hover {
-                color: $theme-color;
-                background-size: 100% 3px;
-            }
+    &.img-item {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+        // Ensures the star graphic aligns straight with text middle
+        img {
+            display: block;
+            vertical-align: middle;
         }
     }
 }
 
-.marquee-inner.to-left {
-    animation: marqueeLeft 25s linear infinite;
-}
-
+// Ultra-smooth GPU accelerated keyframes using transform
 @keyframes marqueeLeft {
     0% {
-        left: 0;
+        transform: translateX(0%);
     }
     100% {
-        left: -100%;
+        transform: translateX(-100%);
     }
-}
-
-.marquee-inner.to-right {
-    animation: marqueeRight 25s linear infinite;
 }
 
 @keyframes marqueeRight {
     0% {
-       right : 0;
+        transform: translateX(-100%);
     }
     100% {
-        right: -100%;
+        transform: translateX(0%);
     }
 }
 
+// Background utility section retained from your code
 .marque-section-2 {
     position: relative;
-
-
     
     &::before {
         @include before;

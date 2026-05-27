@@ -15,8 +15,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Vashdhaiv Enterprises - Solar Solutions",
-  description: "Solar Panel Installation Company In Lucknow",
+  title: "Solar Company in Lucknow | Vasudhaiv Enterprises",
+  description:
+    "Trusted solar company in Lucknow offering rooftop solar installation, AMC, solar pump, street light & atta chakki for homes and businesses. Book free survey.",
 };
 
 export default function RootLayout({

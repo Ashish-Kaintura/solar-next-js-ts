@@ -58,12 +58,13 @@ const MissionVision: React.FC = () => {
                 }}
               />
 
-              <div style={iconCircle}>
+              <div>
                 <Image
-                  src="/img/about/icon-mission.svg"
-                  width={38}
-                  height={38}
-                  alt="Mission Icon"
+                  src="/img/about/mission.png"
+                  width={338}
+                  height={338}
+                  alt="Affordable solar energy for homes in Uttar Pradesh"
+                  style={{ marginBottom: "20px" }}
                 />
               </div>
 
@@ -115,12 +116,13 @@ const MissionVision: React.FC = () => {
                 }}
               />
 
-              <div style={iconCircle} className="vision-icon-bg">
+              <div>
                 <Image
-                  src="/img/about/icon-vision.svg"
-                  width={38}
-                  height={38}
-                  alt="Vision Icon"
+                  src="/img/about/03.png"
+                  width={338}
+                  height={338}
+                  alt="Affordable solar energy for homes in Uttar Pradesh"
+                  style={{ marginBottom: "20px" }}
                 />
               </div>
 
