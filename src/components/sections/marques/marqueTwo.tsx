@@ -7,7 +7,7 @@ const textSliderData = [
   "Commercial Solar Installation",
   "Solar Amc Page",
   "Solar Water Pump",
-  "Solar Ata Chakki ",
+  "Solar Aata Chakki ",
   "solar street light",
   "solar installation projects",
 ];
