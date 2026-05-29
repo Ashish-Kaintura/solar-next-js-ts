@@ -245,7 +245,19 @@ const Footer = () => {
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between">
             <p className="wow slideLeft color-2" data-delay=".3">
-              © All Copyright 2025 by <Link href="index">Solar</Link>
+              © All Copyright 2025 by{" "}
+              <Link href="index">Vasudhaiv Enterprises</Link>
+              <br />
+              <span>
+                Design and developed by{" "}
+                <Link
+                  target="_blank"
+                  href="https://ashish-kaintura-folio.netlify.app/"
+                >
+                  {" "}
+                  Ashish Kaintura{" "}
+                </Link>
+              </span>
             </p>
             <ul className="footer-menu wow slideRight" data-delay=".5">
               <li>

@@ -47,14 +47,14 @@ const HeaderOne = () => {
                     </nav>
                   </div>
                 </div>
-                <SearchPopup />
-                <div className="header-button">
+                {/* <SearchPopup /> */}
+                {/* <div className="header-button">
                   <Link href="/contact" className="theme-btn">
                     <span>
                       get A Quote <i className="fa-solid fa-arrow-right-long" />
                     </span>
                   </Link>
-                </div>
+                </div> */}
                 <div className="header__hamburger d-xl-block my-auto">
                   <ExtraInfoOffcanvas />
                 </div>
